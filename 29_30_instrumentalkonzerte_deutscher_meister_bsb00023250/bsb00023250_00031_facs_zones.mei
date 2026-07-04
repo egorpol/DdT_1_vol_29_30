@@ -51,32 +51,29 @@
             <score xml:id="a1ei2pra">
                <scoreDef xml:id="bswf3nn">
                   <staffGrp xml:id="e1os8bh3">
-                     <staffDef xml:id="P1" n="1" lines="5" ppq="4">
-                        <label xml:id="f1kzg4r2">System 1</label>
-                        <labelAbbr xml:id="hajl6or">Prt1</labelAbbr>
-                        <instrDef xml:id="jjyi8ay" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="s1u78bs1" shape="G" line="2" />
-                        <keySig xml:id="tugwfni" sig="2s" />
-                        <meterSig xml:id="uu7s70q" count="3" unit="4" />
-                     </staffDef>
                      <staffGrp xml:id="P2" bar.thru="true">
-                        <label xml:id="f14arw6y">System 2</label>
-                        <labelAbbr xml:id="h1j79quz">Prt2</labelAbbr>
+                        <grpSym xml:id="uncxi7ps" symbol="brace" />
+                        <label xml:id="f14arw6y">Oboi.</label>
                         <instrDef xml:id="j1wrglr2" midi.channel="1" midi.instrnum="0" midi.volume="77%" />
+                        <staffDef xml:id="P1" n="1" lines="5" ppq="4">
+                           <clef xml:id="s1u78bs1" shape="G" line="2" />
+                           <keySig xml:id="tugwfni" sig="2s" />
+                           <meterSig xml:id="uu7s70q" count="3" unit="4" />
+                        </staffDef>
                         <staffDef xml:id="l1slvzvy" n="2" lines="5" ppq="4">
                            <clef xml:id="s1spux27" shape="G" line="2" />
                            <keySig xml:id="t1qmr9uq" sig="2s" />
                            <meterSig xml:id="urix4z7" count="3" unit="4" />
                         </staffDef>
-                        <staffDef xml:id="v17dr9pb" n="3" lines="5" ppq="4">
-                           <clef xml:id="coa154" shape="G" line="2" />
-                           <keySig xml:id="dpljh30" sig="2s" />
-                           <meterSig xml:id="e1b9rsqv" count="3" unit="4" />
-                        </staffDef>
                      </staffGrp>
+                     <staffDef xml:id="v17dr9pb" n="3" lines="5" ppq="4">
+                        <label xml:id="jdfg345">Violino conertato.</label>
+                        <clef xml:id="coa154" shape="G" line="2" />
+                        <keySig xml:id="dpljh30" sig="2s" />
+                        <meterSig xml:id="e1b9rsqv" count="3" unit="4" />
+                     </staffDef>
                      <staffDef xml:id="P3" n="4" lines="5" ppq="4">
-                        <label xml:id="f1ttsnrn">System 4</label>
-                        <labelAbbr xml:id="h7y2lq6">Prt4</labelAbbr>
+                        <label xml:id="f1ttsnrn">Violino I.</label>
                         <instrDef xml:id="j1ul0p0a" midi.channel="15" midi.instrnum="0" midi.volume="77%" />
                         <clef xml:id="slr1p3z" shape="G" line="2" />
                         <keySig xml:id="t1reebyq" sig="2s" />
