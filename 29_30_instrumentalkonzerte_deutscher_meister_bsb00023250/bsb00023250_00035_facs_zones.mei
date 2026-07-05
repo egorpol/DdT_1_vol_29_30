@@ -18,7 +18,7 @@
                <name xml:id="njgetdu">Verovio</name>
                <p xml:id="pue75fx">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="ax8b3ik2" startdate="2026-07-05T21:36:01" version="1.3.0" enddate="2026-07-05T21:50:33">
+            <application xml:id="ax8b3ik2" startdate="2026-07-05T21:36:01" version="1.3.0" enddate="2026-07-05T21:59:06">
                <name xml:id="nz28fxt1">mei-friend</name>
                <p xml:id="py3jgmn2">First edit by mei-friend 1.3.0.</p>
             </application>
@@ -464,7 +464,8 @@
                   <measure xml:id="j1i46ny9" n="7" facs="#zone_26d8d1d58c6648c6ac">
                      <staff xml:id="shm6klr" n="1">
                         <layer xml:id="u1am3ydn" n="1">
-                           <mSpace xml:id="w14tf2pd" />
+                           <note xml:id="ndfg" dur="2" oct="5" pname="f" stem.dir="down"/>
+                           <note xml:id="ndsfk2" dur="4" oct="5" pname="f" stem.dir="down"/>
                         </layer>
                      </staff>
                      <staff xml:id="qfios50" n="2">
@@ -525,11 +526,26 @@
                      <tie xml:id="m739p6k" startid="#krbsubk" endid="#f1iwdxma" />
                      <slur xml:id="k318ddz" startid="#j1e7iziz" endid="#m1ei2jtu" />
                      <slur xml:id="q1w0z0mi" startid="#p183dlqb" endid="#srloggd" />
+                     <tie xml:id="t4tjxis1" endid="#jdfgn3" staff="1" startid="#ndsfk2"/>
                   </measure>
                   <measure xml:id="xkgv12r" n="8" facs="#zone_79c9b23bcec8480786">
                      <staff xml:id="gfz7ep2" n="1">
                         <layer xml:id="h1lf7507" n="1">
-                           <mSpace xml:id="j9ynsgp" />
+                           <beam xml:id="b35g22t1">
+                              <note xml:id="jdfgn3" dur="8" oct="5" pname="f" stem.dir="down"/>
+                              <note xml:id="njts5bk1" dur="16" oct="5" pname="g" accid="s" stem.dir="down"/>
+                              <note xml:id="ne6isog" dur="16" oct="5" pname="a" stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="b35g22t11">
+                              <note xml:id="jdfgn31" dur="8" oct="5" pname="b" stem.dir="down"/>
+                              <note xml:id="njts5bk11" dur="16" oct="6" pname="c" stem.dir="down"/>
+                              <note xml:id="ne6isog1" dur="16" oct="6" pname="d" stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="b35g22t131">
+                              <note xml:id="jdfgn331" dur="8" oct="5" pname="b" stem.dir="down"/>
+                              <note xml:id="njts5bk311" dur="16" oct="6" pname="c" stem.dir="down"/>
+                              <note xml:id="ne6isog13" dur="16" oct="6" pname="d" stem.dir="down"/>
+                           </beam>
                         </layer>
                      </staff>
                      <staff xml:id="d1v1v2jr" n="2">
@@ -580,6 +596,8 @@
                      </staff>
                      <slur xml:id="o1wruzky" startid="#m1l2z8c6" endid="#p6o51po" />
                      <slur xml:id="s1l2bwzo" startid="#r15rvyen" endid="#v17hgyx1" />
+                     <slur xml:id="s5jm2ie" endid="#ne6isog13" staff="1" startid="#jdfgn331"/>
+                     <slur xml:id="s29pa681" endid="#ne6isog1" staff="1" startid="#jdfgn31"/>
                   </measure>
                   <measure xml:id="k1o7mavk" n="9" facs="#zone_0e36f3f7af864e4a9b">
                      <staff xml:id="trxmj1a" n="1">
