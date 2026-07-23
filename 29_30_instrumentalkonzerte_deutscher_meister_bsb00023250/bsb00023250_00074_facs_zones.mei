@@ -44,11 +44,9 @@
       <body>
          <mdiv xml:id="l1n5aqam">
             <score xml:id="mjloqqw">
-               <scoreDef xml:id="nzz8xz3">
+               <scoreDef xml:id="nzz8xz3" optimize="false">
                   <staffGrp xml:id="q4g59es">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="4">
-                        <label xml:id="r65gqgt">System 1</label>
-                        <labelAbbr xml:id="t1l24xm">Prt1</labelAbbr>
                         <instrDef xml:id="voud14a" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
                         <clef xml:id="e1suzu8z" shape="G" line="2" />
                         <keySig xml:id="f4irf22" sig="1s" />
@@ -56,8 +54,6 @@
                      </staffDef>
                      <staffGrp xml:id="P2" bar.thru="true">
                         <grpSym xml:id="kpwrc8j" symbol="brace" />
-                        <label xml:id="k1pjk13w">System 2</label>
-                        <labelAbbr xml:id="m1y4yn5r">Prt2</labelAbbr>
                         <instrDef xml:id="o5yewx" midi.channel="1" midi.instrnum="0" midi.volume="77%" />
                         <staffDef xml:id="qyfqz8r" n="2" lines="5" ppq="4">
                            <clef xml:id="x13j9sgc" shape="G" line="2" />
@@ -71,16 +67,12 @@
                         </staffDef>
                      </staffGrp>
                      <staffDef xml:id="P3" n="4" lines="5" ppq="4">
-                        <label xml:id="j67tt66">System 4</label>
-                        <labelAbbr xml:id="l1d4tbct">Prt4</labelAbbr>
                         <instrDef xml:id="n1nklm6f" midi.channel="11" midi.instrnum="0" midi.volume="77%" />
                         <clef xml:id="w1wx55y0" shape="C" line="3" />
                         <keySig xml:id="x3fas9" sig="1s" />
                         <meterSig xml:id="yoyftaz" count="3" unit="4" />
                      </staffDef>
                      <staffDef xml:id="P4" n="5" lines="5" ppq="4">
-                        <label xml:id="kbl7j2g">System 5</label>
-                        <labelAbbr xml:id="m1llb3y5">Prt5</labelAbbr>
                         <instrDef xml:id="o181fb0q" midi.channel="12" midi.instrnum="0" midi.volume="77%" />
                         <clef xml:id="xugo8aw" shape="F" line="4" />
                         <keySig xml:id="y195qpuh" sig="1s" />
@@ -88,8 +80,6 @@
                      </staffDef>
                      <staffGrp xml:id="P5" bar.thru="true">
                         <grpSym xml:id="aupfi0s" symbol="brace" />
-                        <label xml:id="a903ep8">System 6</label>
-                        <labelAbbr xml:id="c1eshe51">Prt6</labelAbbr>
                         <instrDef xml:id="e1v8b9fl" midi.channel="13" midi.instrnum="0" midi.volume="77%" />
                         <staffDef xml:id="guzsm2h" n="6" lines="5" ppq="4">
                            <clef xml:id="n10jk69k" shape="G" line="2" />
@@ -104,8 +94,6 @@
                      </staffGrp>
                      <staffGrp xml:id="P6" bar.thru="true">
                         <grpSym xml:id="eti06pt" symbol="brace" />
-                        <label xml:id="er04vzh">System 8</label>
-                        <labelAbbr xml:id="gcx423c">Prt8</labelAbbr>
                         <instrDef xml:id="i1yvbppa" midi.channel="5" midi.instrnum="0" midi.volume="77%" />
                         <staffDef xml:id="km61gbv" n="8" lines="5" ppq="4">
                            <clef xml:id="rplqpq0" shape="G" line="2" />
@@ -123,6 +111,9 @@
                <section xml:id="oyggewt">
                   <pb xml:id="phmcib6" />
                   <measure xml:id="h11lg95z" n="1" facs="#zone_e0b17770bb1d4e94a6">
+                     <tempo xml:id="fdsgagdg" staff="1" tstamp="1">Largo e moderato.</tempo>
+                     <tempo xml:id="htrehhj" staff="6" tstamp="1">Largo e moderato.</tempo>
+                     <tempo xml:id="vsfevbh" staff="8" tstamp="1">Largo e moderato.</tempo>
                      <staff xml:id="qkbtayr" n="1">
                         <layer xml:id="r13xntdo" n="1">
                            <mSpace xml:id="t1anbsiv" />
@@ -739,7 +730,6 @@
                      <slur xml:id="y16dgqv2" startid="#wqak8le" endid="#dkosalh" />
                      <tie xml:id="qx3b8nc" startid="#od8228b" endid="#xat7oba" />
                   </measure>
-                  <pb xml:id="e1ucnt8j" />
                   <measure xml:id="u1ep4n53" n="6" facs="#zone_e8053faa18dc415495">
                      <staff xml:id="d16xy66i" n="1">
                         <layer xml:id="f1p818ja" n="1">
@@ -1625,7 +1615,6 @@
                         </layer>
                      </staff>
                   </measure>
-                  <pb xml:id="gpmi83l" />
                   <measure xml:id="w1gl74ul" metcon="false" n="12" facs="#zone_58b5aac8ecdb492cac">
                      <staff xml:id="f1v4kaf6" n="1">
                         <layer xml:id="hwu7cj" n="1">
