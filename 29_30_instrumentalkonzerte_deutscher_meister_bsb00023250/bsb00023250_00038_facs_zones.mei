@@ -99,10 +99,18 @@
                            <keySig xml:id="x1fqvsjj" sig="2s" />
                         </staffDef>
                      </staffGrp>
-                     <staffDef xml:id="zulf8fo" n="10" lines="5" ppq="12">
-                           <clef xml:id="g1iqjzin" shape="F" line="4" />
+                     <staffGrp xml:id="P8" bar.thru="true">
+                        <grpSym xml:id="jtui6u3a" symbol="brace" />
+                        <instrDef xml:id="n7ye733v" midi.channel="10" midi.instrnum="0" midi.volume="77%" />
+                        <staffDef xml:id="zulf8fo" n="10" lines="5" ppq="12">
+                           <clef xml:id="g1iqjzin" shape="G" line="2" />
                            <keySig xml:id="h1vavy54" sig="2s" />
-                     </staffDef>
+                        </staffDef>
+                        <staffDef xml:id="zulf83fo" n="11" lines="5" ppq="12">
+                           <clef xml:id="g1iq3jzin" shape="F" line="4" />
+                           <keySig xml:id="h1v3avy54" sig="2s" />
+                        </staffDef>
+                     </staffGrp>
                   </staffGrp>
                </scoreDef>
                <section xml:id="b17dn24o">
@@ -652,6 +660,11 @@
                      <staff xml:id="w1v1n2dg" n="10">
                         <layer xml:id="c1lf56ep" n="5">
                            <mRest xml:id="e174yky3" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="w1v1n2sdg" n="11">
+                        <layer xml:id="c1lfs56ep" n="5">
+                           <mRest xml:id="e1s74yky3" />
                         </layer>
                      </staff>
                   </measure>
