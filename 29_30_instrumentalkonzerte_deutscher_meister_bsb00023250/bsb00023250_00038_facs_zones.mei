@@ -18,7 +18,7 @@
                <name xml:id="n1qchxo2">Verovio</name>
                <p xml:id="pcvj4mh">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="aem3brh" startdate="2026-07-20T23:07:22" version="1.4.2" enddate="2026-07-25T10:35:38">
+            <application xml:id="aem3brh" startdate="2026-07-20T23:07:22" version="1.4.2" enddate="2026-07-25T10:54:19">
                <name xml:id="nz440411">mei-friend</name>
                <p xml:id="pbnxu6k2">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -615,6 +615,23 @@
                            <mSpace xml:id="q31gavj" />
                         </layer>
                      </staff>
+                     <staff xml:id="sml3" n="3">
+                        <layer xml:id="ksdfl3" n="1">
+                           <chord xml:id="lsfv3s" dur="4" dots="1" stem.dir="down">
+                              <note xml:id="ksd3" oct="5" pname="c"/>
+                              <note xml:id="ksd33" oct="5" pname="b"/>
+                              <note xml:id="ksd32" oct="4" pname="e" accid="s"/>
+                           </chord>
+                           <note xml:id="lskf" dur="8" oct="5" pname="c" stem.dir="down"/>
+                           <tuplet num="3" numbase="2">
+                              <beam xml:id="b7no8fm2">
+                                 <note xml:id="mdk" dur="8" oct="5" pname="b"/>
+                                 <note xml:id="mdk1" dur="8" oct="5" pname="c"/>
+                                 <note xml:id="mdk12" dur="8" oct="5" pname="b"/>
+                              </beam>
+                           </tuplet>
+                        </layer>
+                     </staff>
                      <staff xml:id="nze49rd" n="4">
                         <layer xml:id="o846p5s" n="1">
                            <rest xml:id="p19gvx9z" dur.ppq="12" dur="4" />
@@ -667,6 +684,7 @@
                            <mRest xml:id="e1s74yky3" />
                         </layer>
                      </staff>
+                     <slur xml:id="sx6rhe11" endid="#mdk12" staff="3" startid="#mdk"/>
                   </measure>
                   <measure xml:id="r1gzutc2" n="9" facs="#zone_95c13bef00934524a5">
                      <staff xml:id="a4mt736" n="1">
