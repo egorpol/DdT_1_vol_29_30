@@ -18,7 +18,7 @@
                <name xml:id="n187qozd">Verovio</name>
                <p xml:id="p125olc2">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="a38zarp2" startdate="2026-07-25T11:02:13" version="1.4.2" enddate="2026-07-25T11:22:54">
+            <application xml:id="a38zarp2" startdate="2026-07-25T11:02:13" version="1.4.2" enddate="2026-07-25T11:33:45">
                <name xml:id="n48zwiy2">mei-friend</name>
                <p xml:id="plb8w4j1">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -1050,7 +1050,7 @@
                      </staff>
                      <staff xml:id="p1uo6d7x" n="10">
                         <layer xml:id="rxl9mku" n="1">
-                           <space xml:id="tgw1ov9" dots="1" dur.ppq="12" dur="1" />
+                           <space xml:id="tgw1ov9" dur="4" />
                            <note xml:id="s1vxoghg" dur.ppq="4" dur="2" oct="4" pname="a" stem.dir="up" />
                         </layer>
                         <layer xml:id="uqpa5e9" n="2">
@@ -1059,10 +1059,14 @@
                               <note xml:id="y1t0rt77" oct="4" pname="e" />
                                <note xml:id="oymeevpds" oct="4" pname="a" />
                            </chord>
-                           <note xml:id="zj7p95e" dur.ppq="4" dur="4" oct="4" pname="e" stem.dir="down">
-                              <artic xml:id="b11m1dzz" artic="stacc" />
-                           </note>
-                           <note xml:id="c1w8mlfq" dur.ppq="4" dur="4" oct="4" pname="f" stem.dir="down" accid.ges="s" />
+                           <chord xml:id="mskc" dur="4" stem.dir="down">
+                              <note xml:id="zj7p95e" oct="4" pname="e" />
+                              <note xml:id="zj7p95se" oct="5" pname="c" />
+                           </chord>
+                           <chord xml:id="mskdc" dur="4" stem.dir="down">
+                              <note xml:id="zjd7p95e" oct="5" pname="d" />
+                              <note xml:id="zj7dp95se" oct="4" pname="f" />
+                           </chord>
                         </layer>
                      </staff>
                      <staff xml:id="q1dd46be" n="11">
@@ -1074,6 +1078,8 @@
                      <dynam xml:id="f1yfqtu7" place="below" staff="7" tstamp="2" val="61" vgrp="793">p</dynam>
                      <slur xml:id="ardn6mh" startid="#zj7p95e" endid="#c1w8mlfq" />
                      <dynam xml:id="g1gwdl9y" place="above" staff="11" tstamp="2" val="61" vgrp="704">p</dynam>
+                     <slur xml:id="sca9e4x1" endid="#zjd7p95e" staff="10" startid="#zj7p95se" curvedir="above"/>
+                     <slur xml:id="swrdmna" endid="#zj7dp95se" staff="10" startid="#zj7p95e"/>
                   </measure>
                   <pb xml:id="j13d3z5w" />
                   <measure xml:id="y1wnt66x" n="7" facs="#zone_e7abad3b6b0f405aa5">
