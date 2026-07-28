@@ -18,7 +18,7 @@
                <name xml:id="n4a0atf">Verovio</name>
                <p xml:id="p1groyn8">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="ahl8ur6" startdate="2026-07-28T21:14:10" version="1.4.2" enddate="2026-07-28T22:11:14">
+            <application xml:id="ahl8ur6" startdate="2026-07-28T21:14:10" version="1.4.2" enddate="2026-07-28T22:16:45">
                <name xml:id="njm2u4o2">mei-friend</name>
                <p xml:id="ps61x7k2">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -1004,13 +1004,17 @@
                      </staff>
                      <staff xml:id="y1yz0qma" n="9">
                         <layer xml:id="ohulsj3" n="5">
-                           <chord xml:id="q5tgwd9" dur.ppq="8" dur="4" stem.dir="up">
-                              <note xml:id="pdb51vp" oct="1" pname="g" />
-                              <note xml:id="r15dfgjb" oct="1" pname="c">
-                                 <accid xml:id="ss5nt50" accid="ff" />
-                              </note>
-                           </chord>
-                           <rest xml:id="tiugi0g" dur.ppq="32" dur="1" />
+                           <beam xml:id="b3yprw5">
+                              <note xml:id="kelr" dur="8" oct="3" pname="a" stem.dir="up"/>
+                              <note xml:id="n94jp84" dur="8" oct="3" pname="a" stem.dir="up"/>
+                              <note xml:id="np6w1r6" dur="8" oct="3" pname="a" stem.dir="up"/>
+                              <note xml:id="n2q8koy2" dur="8" oct="3" pname="a" stem.dir="up"/>
+                           </beam>
+                           <note xml:id="ngw88i3" dur="4" oct="3" pname="a" stem.dir="up"/>
+                           <beam xml:id="bf7psqp2">
+                              <note xml:id="nwib7lp2" dur="8" oct="3" pname="a" stem.dir="up"/>
+                              <note xml:id="nhybr651" dur="8" oct="3" pname="a" accid="s" stem.dir="up"/>
+                           </beam>
                         </layer>
                      </staff>
                      <slur xml:id="j1i6iafr" startid="#h2ll46r" endid="#k1hscfzy" />
@@ -1097,7 +1101,21 @@
                      </staff>
                      <staff xml:id="e145dbcn" n="9">
                         <layer xml:id="jn5zd5p" n="5">
-
+                           <note xml:id="k3wo" dur="4" oct="3" pname="b" stem.dir="up"/>
+                           <clef xml:id="owels" shape="F" line="4"/>
+                           <beam xml:id="b6tl0a11">
+                              <note xml:id="pwe" dur="8" oct="2" pname="b" stem.dir="down"/>
+                              <note xml:id="nm3c4go1" dur="8" oct="3" pname="b" stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="b7n1uuq2">
+                              <note xml:id="n4hbd4j1" dur="8" oct="3" pname="b" stem.dir="down"/>
+                              <note xml:id="nuuy56w2" dur="16" oct="3" pname="a" stem.dir="down"/>
+                              <note xml:id="nfxc5pw2" dur="16" oct="3" pname="g" stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="byx4ugq2">
+                              <note xml:id="ndbw9ys2" dur="8" oct="3" pname="a" stem.dir="down"/>
+                              <note xml:id="ncthgid" dur="8" oct="3" pname="f" stem.dir="down"/>
+                           </beam>
                         </layer>
                      </staff>
                      <tie xml:id="t28aakl2" endid="#k1gfaaf9" staff="1" startid="#jerker"/>
@@ -1287,7 +1305,7 @@
                      <trill xml:id="thva8zq2" staff="1" startid="#h1wd35s8"/>
                      <dynam xml:id="dfpe1cc" staff="2" startid="#a1rs2h6p">p</dynam>
                      <dynam xml:id="d0hkclq1" staff="3" startid="#sbvn00q">p</dynam>
-                     <dynam xml:id="d0ehcl91" staff="5" startid="#v140ok0g">p</dynam>
+                     <dynam xml:id="d0ehcl91" staff="5" startid="#v140ok0g"></dynam>
                   </measure>
                </section>
             </score>
