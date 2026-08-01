@@ -75,16 +75,19 @@
                         <clef xml:id="kewrl345" shape="F" line="4"/>
                         <keySig xml:id="ker546" sig="2s"/>
                      </staffDef>
-                     <staffDef xml:id="P1" n="6" lines="5" ppq="8">
-                        <instrDef xml:id="l1ufbwc7" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="u4mqzqx" shape="G" line="2" />
-                        <keySig xml:id="vy2cg4s" sig="2s" />
+                     <staffGrp xml:id="P7" bar.thru="true">
+                        <grpSym xml:id="u15daoa2k" symbol="brace" />
+                        <staffDef xml:id="P1" n="6" lines="5" ppq="8">
+                           <instrDef xml:id="l1ufbwc7" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="u4mqzqx" shape="G" line="2" />
+                           <keySig xml:id="vy2cg4s" sig="2s" />
+                        </staffDef>
+                        <staffDef xml:id="P5" n="7" lines="5" ppq="8">
+                           <instrDef xml:id="oisv0b1" midi.channel="13" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="x11t10qv" shape="F" line="4" />
+                           <keySig xml:id="y7tezdo" sig="2s" />
                      </staffDef>
-                     <staffDef xml:id="P5" n="7" lines="5" ppq="8">
-                        <instrDef xml:id="oisv0b1" midi.channel="13" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="x11t10qv" shape="F" line="4" />
-                        <keySig xml:id="y7tezdo" sig="2s" />
-                     </staffDef>
+                     </staffGrp>
                      <staffGrp xml:id="P6" bar.thru="true">
                         <grpSym xml:id="u15daoa2" symbol="brace" />
                         <instrDef xml:id="y1abasdt" midi.channel="14" midi.instrnum="0" midi.volume="77%" />
