@@ -48,45 +48,47 @@
             <score xml:id="idsa7vc">
                <scoreDef xml:id="j1nxxas1">
                   <staffGrp xml:id="mvivllc">
-                     <staffGrp xml:id="P1" bar.thru="true">
-                        <grpSym xml:id="n222bo6" symbol="brace" />
-                        <instrDef xml:id="r52jucx" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
-                        <staffDef xml:id="t5zwqpw" n="1" lines="5" ppq="4">
-                           <clef xml:id="a1jji0ot" shape="G" line="2" />
-                           <keySig xml:id="b1m3vd5" sig="2s" />
+                     <staffGrp xml:id="jewur" symbol="bracket">
+                        <staffGrp xml:id="P1" bar.thru="true">
+                           <grpSym xml:id="n222bo6" symbol="brace" />
+                            <instrDef xml:id="r52jucx" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
+                           <staffDef xml:id="t5zwqpw" n="1" lines="5" ppq="4">
+                              <clef xml:id="a1jji0ot" shape="G" line="2" />
+                              <keySig xml:id="b1m3vd5" sig="2s" />
+                           </staffDef>
+                           <staffDef xml:id="d1auy7h6" n="2" lines="5" ppq="4">
+                              <clef xml:id="k181tzer" shape="G" line="2" />
+                              <keySig xml:id="l1aw8h9c" sig="2s" />
+                           </staffDef>
+                        </staffGrp>
+                        <staffDef xml:id="P2" n="3" lines="5" ppq="4">
+                           <instrDef xml:id="t1req3li" midi.channel="8" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="c1sdu6dd" shape="G" line="2" />
+                           <keySig xml:id="d1t15par" sig="2s" />
                         </staffDef>
-                        <staffDef xml:id="d1auy7h6" n="2" lines="5" ppq="4">
-                           <clef xml:id="k181tzer" shape="G" line="2" />
-                           <keySig xml:id="l1aw8h9c" sig="2s" />
+                        <staffGrp xml:id="P3" bar.thru="true">
+                           <grpSym xml:id="vzo0826" symbol="brace" />
+                           <instrDef xml:id="zhipk8" midi.channel="10" midi.instrnum="0" midi.volume="77%" />
+                           <staffDef xml:id="b1h9a9gj" n="4" lines="5" ppq="4">
+                              <clef xml:id="i1gh5gfu" shape="G" line="2" />
+                              <keySig xml:id="ji4zvwy" sig="2s" />
+                           </staffDef>
+                           <staffDef xml:id="l13fibri" n="5" lines="5" ppq="4">
+                              <clef xml:id="s1g7ua61" shape="G" line="2" />
+                              <keySig xml:id="twe6vd5" sig="2s" />
+                           </staffDef>
+                        </staffGrp>
+                        <staffDef xml:id="P4" n="6" lines="5" ppq="4">
+                           <instrDef xml:id="z1j5dcu3" midi.channel="10" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="i1swzfn8" shape="C" line="3" />
+                           <keySig xml:id="jbxhhbq" sig="2s" />
+                        </staffDef>
+                        <staffDef xml:id="P5" n="7" lines="5" ppq="4">
+                           <instrDef xml:id="i3dcm6" midi.channel="11" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="rnnww0u" shape="F" line="4" />
+                           <keySig xml:id="s1uvbsaa" sig="2s" />
                         </staffDef>
                      </staffGrp>
-                     <staffDef xml:id="P2" n="3" lines="5" ppq="4">
-                        <instrDef xml:id="t1req3li" midi.channel="8" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="c1sdu6dd" shape="G" line="2" />
-                        <keySig xml:id="d1t15par" sig="2s" />
-                     </staffDef>
-                     <staffGrp xml:id="P3" bar.thru="true">
-                        <grpSym xml:id="vzo0826" symbol="brace" />
-                        <instrDef xml:id="zhipk8" midi.channel="10" midi.instrnum="0" midi.volume="77%" />
-                        <staffDef xml:id="b1h9a9gj" n="4" lines="5" ppq="4">
-                           <clef xml:id="i1gh5gfu" shape="G" line="2" />
-                           <keySig xml:id="ji4zvwy" sig="2s" />
-                        </staffDef>
-                        <staffDef xml:id="l13fibri" n="5" lines="5" ppq="4">
-                           <clef xml:id="s1g7ua61" shape="G" line="2" />
-                           <keySig xml:id="twe6vd5" sig="2s" />
-                        </staffDef>
-                     </staffGrp>
-                     <staffDef xml:id="P4" n="6" lines="5" ppq="4">
-                        <instrDef xml:id="z1j5dcu3" midi.channel="10" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="i1swzfn8" shape="C" line="3" />
-                        <keySig xml:id="jbxhhbq" sig="2s" />
-                     </staffDef>
-                     <staffDef xml:id="P5" n="7" lines="5" ppq="4">
-                        <instrDef xml:id="i3dcm6" midi.channel="11" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="rnnww0u" shape="F" line="4" />
-                        <keySig xml:id="s1uvbsaa" sig="2s" />
-                     </staffDef>
                      <staffGrp xml:id="P6" bar.thru="true">
                         <grpSym xml:id="y7e95gj" symbol="brace" />
                         <instrDef xml:id="cho1dlz" midi.channel="12" midi.instrnum="0" midi.volume="77%" />
@@ -116,6 +118,7 @@
                <section xml:id="k12zf88y">
                   <pb xml:id="lbuqq9e" />
                   <measure xml:id="o19nbqkn" metcon="false" n="1" facs="#zone_889013ee59844d97a6">
+                     <dir xml:id="sniew" place="above" staff="6" tstamp="1">Viola.</dir>
                      <staff xml:id="x10il5lk" n="1">
                         <layer xml:id="z1ygd19k" n="1">
                            <mSpace xml:id="bzaxpzw" />
@@ -706,6 +709,7 @@
                      <keySig xml:id="c1cat05o" sig="2s" />
                   </scoreDef>
                   <measure xml:id="n1j1pf7f" n="7" facs="#zone_b6d9e0f9d8ca4e8f86">
+                     <dir xml:id="kwer8" place="above" staff="2" tstamp="1">Oboi.</dir>
                      <staff xml:id="w1cv6ukf" n="1">
                         <layer xml:id="d1qyzb55" n="1">
                            <mRest xml:id="f13ps72a" />
