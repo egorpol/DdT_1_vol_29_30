@@ -51,32 +51,34 @@
             <score xml:id="u1nd6iwb">
                <scoreDef xml:id="v1kppeve">
                   <staffGrp xml:id="y1glmbuf">
-                     <staffDef xml:id="P1" n="1" lines="5" ppq="4">
-                        <instrDef xml:id="d13oh4br" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="mljnjah" shape="G" line="2" />
-                        <keySig xml:id="n191oq76" sig="2s" />
-                     </staffDef>
-                     <staffGrp xml:id="P23" bar.thru="true">
-                        <grpSym xml:id="uvqdp8as" symbol="brace" />
-                        <instrDef xml:id="x1nxkxj6" midi.channel="1" midi.instrnum="0" midi.volume="77%" />
-                        <staffDef xml:id="P2" n="2" lines="5" ppq="4">
-                           <clef xml:id="gggiswd" shape="G" line="2" />
-                           <keySig xml:id="hpr86dx" sig="2s" />
+                     <staffGrp xml:id="ksd9" symbol="bracket">
+                        <staffDef xml:id="P1" n="1" lines="5" ppq="4">
+                           <instrDef xml:id="d13oh4br" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="mljnjah" shape="G" line="2" />
+                           <keySig xml:id="n191oq76" sig="2s" />
                         </staffDef>
-                        <staffDef xml:id="P3" n="3" lines="5" ppq="4">
-                           <clef xml:id="x5jelk9" shape="G" line="2" />
-                           <keySig xml:id="yi4vq0v" sig="2s" />
+                        <staffGrp xml:id="P23" bar.thru="true">
+                           <grpSym xml:id="uvqdp8as" symbol="brace" />
+                           <instrDef xml:id="x1nxkxj6" midi.channel="1" midi.instrnum="0" midi.volume="77%" />
+                           <staffDef xml:id="P2" n="2" lines="5" ppq="4">
+                              <clef xml:id="gggiswd" shape="G" line="2" />
+                              <keySig xml:id="hpr86dx" sig="2s" />
+                           </staffDef>
+                           <staffDef xml:id="P3" n="3" lines="5" ppq="4">
+                              <clef xml:id="x5jelk9" shape="G" line="2" />
+                              <keySig xml:id="yi4vq0v" sig="2s" />
+                           </staffDef>
+                        </staffGrp>
+                        <staffDef xml:id="p1q7ydcu" n="4" lines="5" ppq="4">
+                           <instrDef xml:id="n8dr7sg" midi.channel="3" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="w62cgfu" shape="C" line="3" />
+                           <keySig xml:id="x1dawpb5" sig="2s" />
+                        </staffDef>
+                        <staffDef xml:id="zkbdc4w" n="5" lines="5" ppq="4">
+                           <clef xml:id="g1gsyz6n" shape="F" line="4" />
+                           <keySig xml:id="hrf1sv0" sig="2s" />
                         </staffDef>
                      </staffGrp>
-                     <staffDef xml:id="p1q7ydcu" n="4" lines="5" ppq="4">
-                        <instrDef xml:id="n8dr7sg" midi.channel="3" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="w62cgfu" shape="C" line="3" />
-                        <keySig xml:id="x1dawpb5" sig="2s" />
-                     </staffDef>
-                     <staffDef xml:id="zkbdc4w" n="5" lines="5" ppq="4">
-                        <clef xml:id="g1gsyz6n" shape="F" line="4" />
-                        <keySig xml:id="hrf1sv0" sig="2s" />
-                     </staffDef>
                      <staffGrp xml:id="P5" bar.thru="true">
                         <grpSym xml:id="uvqp8as" symbol="brace" />
                         <instrDef xml:id="yypjvhy" midi.channel="10" midi.instrnum="0" midi.volume="77%" />
@@ -94,6 +96,9 @@
                <section xml:id="wowc2zr">
                   <pb xml:id="x3og8qh" />
                   <measure xml:id="p13ikjyh" n="1" facs="#zone_4f3880ea289841efac">
+                     <dir xml:id="jsu3" place="above" staff="2" tstamp="1">Viol. I.</dir>
+                     <dir xml:id="jsud3" place="above" staff="3" tstamp="1">Viol. II.</dir>
+                     <dir xml:id="jsud33" place="above" staff="4" tstamp="1">Viola.</dir>
                      <staff xml:id="ycd2d5s" n="1">
                         <layer xml:id="z1altsmz" n="1">
                            <beam xml:id="bbzswuc">
