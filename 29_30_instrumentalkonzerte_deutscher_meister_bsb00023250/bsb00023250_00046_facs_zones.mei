@@ -18,7 +18,7 @@
                <name xml:id="n1q58czn">Verovio</name>
                <p xml:id="p1lhqenx">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="ajeirrm1" startdate="2026-07-29T21:12:07" version="1.4.2" enddate="2026-07-29T22:52:06">
+            <application xml:id="ajeirrm1" startdate="2026-07-29T21:12:07" version="1.4.2" enddate="2026-08-21T21:33:53">
                <name xml:id="nq7ista">mei-friend</name>
                <p xml:id="px3lir21">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -45,23 +45,24 @@
             <score xml:id="siip35m">
                <scoreDef xml:id="t1x1inwn">
                   <staffGrp xml:id="w55jaax">
-                     <staffDef xml:id="P1" n="1" lines="5" ppq="8">
-                        <instrDef xml:id="b19uxzuk" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="k1bh1crf" shape="G" line="2" />
-                        <keySig xml:id="l1nh1yi3" sig="2s" />
-                     </staffDef>
-                     <staffGrp xml:id="P2" bar.thru="true">
-                        <grpSym xml:id="w5f25d1" symbol="brace" />
-                        <instrDef xml:id="a9w4wsl" midi.channel="1" midi.instrnum="0" midi.volume="77%" />
-                        <staffDef xml:id="ccgm84q" n="2" lines="5" ppq="8">
-                           <clef xml:id="jiao9cx" shape="G" line="2" />
-                           <keySig xml:id="k19784lq" sig="2s" />
+                     <staffGrp xml:id="kdj3" symbol="bracket">
+                        <staffDef xml:id="P1" n="1" lines="5" ppq="8">
+                           <instrDef xml:id="b19uxzuk" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="k1bh1crf" shape="G" line="2" />
+                           <keySig xml:id="l1nh1yi3" sig="2s" />
                         </staffDef>
-                        <staffDef xml:id="muz2tz5" n="3" lines="5" ppq="8">
-                           <clef xml:id="tp4845i" shape="G" line="2" />
-                           <keySig xml:id="upiebum" sig="2s" />
-                        </staffDef>
-                     </staffGrp>
+                        <staffGrp xml:id="P2" bar.thru="true">
+                           <grpSym xml:id="w5f25d1" symbol="brace" />
+                           <instrDef xml:id="a9w4wsl" midi.channel="1" midi.instrnum="0" midi.volume="77%" />
+                           <staffDef xml:id="ccgm84q" n="2" lines="5" ppq="8">
+                              <clef xml:id="jiao9cx" shape="G" line="2" />
+                              <keySig xml:id="k19784lq" sig="2s" />
+                           </staffDef>
+                           <staffDef xml:id="muz2tz5" n="3" lines="5" ppq="8">
+                              <clef xml:id="tp4845i" shape="G" line="2" />
+                              <keySig xml:id="upiebum" sig="2s" />
+                           </staffDef>
+                        </staffGrp>
                         <staffDef xml:id="om66mun" n="4" lines="5" ppq="8">
                            <instrDef xml:id="m1czwfh2" midi.channel="13" midi.instrnum="0" midi.volume="77%" />
                            <clef xml:id="v1epbmn" shape="C" line="3" />
@@ -71,6 +72,7 @@
                            <clef xml:id="f1ao8jn6" shape="F" line="4" />
                            <keySig xml:id="g1793jll" sig="2s" />
                         </staffDef>
+                     </staffGrp>
                      <staffGrp xml:id="P4" bar.thru="true">
                         <grpSym xml:id="f1byowo1" symbol="brace" />
                         <instrDef xml:id="j11wi21u" midi.channel="8" midi.instrnum="0" midi.volume="77%" />
@@ -273,7 +275,7 @@
                         </layer>
                      </staff>
                      <tie xml:id="tjw19vn" startid="#s1p7vhit" endid="#u1mw27fh" />
-                     <dynam xml:id="f1lfll4y" place="below" staff="8" tstamp="1" val="61" vgrp="704">p</dynam>
+                     <dynam xml:id="f1lfll4y" place="below" staff="8" tstamp="1" val="61" vgrp="704">(p)</dynam>
                      <slur xml:id="s0cs8jj2" endid="#r1c4zxnh" staff="1" startid="#n12esr0l"/>
                      <slur xml:id="sgkns101" endid="#x1mpu4ri" staff="1" startid="#wkn08li"/>
                   </measure>
@@ -776,6 +778,8 @@
                      <keySig xml:id="b1ine13h" sig="2s" />
                   </scoreDef>
                   <measure xml:id="o1weosu0" n="5" facs="#zone_6b521381cd724221aa">
+                     <dir xml:id="nhdsdf" place="above" staff="7" tstamp="1">Cemb. I.</dir>
+                     <dir xml:id="nhdsf" place="above" staff="9" tstamp="1">Cemb. II.</dir>
                      <staff xml:id="xngo6sw" n="1">
                         <layer xml:id="c1k9ftei" n="1">
                            <note xml:id="d1bj94qb" dur.ppq="8" dur="4" oct="4" pname="b" stem.dir="down" />
@@ -1226,7 +1230,10 @@
                      <slur xml:id="sp4n1w6" endid="#w3g0er6" staff="2" startid="#t1uf66kj"/>
                      <slur xml:id="sjtf70i2" endid="#f1m3f9tq" staff="2" startid="#b5r5dzs"/>
                      <slur xml:id="s82lf741" endid="#njp7kfv" staff="3" startid="#k1agjlg8"/>
-                     <dynam xml:id="ddib8uu1" staff="6" startid="#pxjzpza">p</dynam>
+                     <dynam xml:id="ddib8uu1" staff="6" startid="#pxjzpza">(p)</dynam>
+                     <slur xml:id="sfoe0sb" endid="#l1jqlhgz" staff="1" startid="#h1lc9w1q" lform="dotted"/>
+                     <slur xml:id="sfs7h3e1" endid="#ixw4vot" staff="2" startid="#e1fqtfko" lform="dotted"/>
+                     <dynam xml:id="drro53l1" staff="8" startid="#ema9n">(p)</dynam>
                   </measure>
                   <measure xml:id="ksj04rj" metcon="false" n="7" facs="#zone_23dd6f8ce8804ba697">
                      <staff xml:id="t1wbyy8u" n="1">
@@ -1492,7 +1499,7 @@
                      <tie xml:id="w1ea4haz" startid="#uduv6n6" endid="#y1w2l7zx" />
                      <tie xml:id="i1izkdem" startid="#h10xle37" endid="#ks6fdr7" />
                      <tie xml:id="e1v4e1f9" startid="#c1l2vs3s" endid="#gvt42x5" />
-                     <dynam xml:id="kemr5dk" place="above" staff="9" tstamp="2.5" val="90" vgrp="704">f</dynam>
+                     <dynam xml:id="kemr5dk" place="above" staff="9" tstamp="2.5" val="90" vgrp="704">(f)</dynam>
                      <slur xml:id="sl54jcb1" endid="#qqiqi3z" staff="1" startid="#m77m43d"/>
                      <slur xml:id="svuvz7v1" endid="#y1lodzht" staff="1" startid="#utm3oww"/>
                      <slur xml:id="syl09rn2" endid="#dqh609" staff="1" startid="#z1ncxuyb"/>
@@ -1500,7 +1507,9 @@
                      <slur xml:id="s32269b1" endid="#ocnjq9d" staff="2" startid="#ks6fdr7"/>
                      <slur xml:id="s03a3np2" endid="#t141159x" staff="2" startid="#p1vjyd3k"/>
                      <slur xml:id="svpowki2" endid="#atr0jqv" staff="3" startid="#x1efdvlb"/>
-                     <dynam xml:id="dkj2f9e" staff="6" startid="#pr18nwb">f</dynam>
+                     <dynam xml:id="dkj2f9e" staff="6" startid="#pr18nwb">(f)</dynam>
+                     <slur xml:id="sp37f99" endid="#ckauye" staff="1" startid="#ytj8i05" lform="dotted"/>
+                     <slur xml:id="s6gp6fz1" endid="#s3kteaf" staff="2" startid="#ojtm9hw" lform="dotted"/>
                   </measure>
                   <measure xml:id="e7ftmij" n="8" facs="#zone_e7aa928cbeeb4d18a3">
                      <staff xml:id="nlnyx76" n="1">
