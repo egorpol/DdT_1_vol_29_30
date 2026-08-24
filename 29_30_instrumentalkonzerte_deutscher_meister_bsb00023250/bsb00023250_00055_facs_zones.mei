@@ -18,7 +18,7 @@
                <name xml:id="nbcuuco">Verovio</name>
                <p xml:id="p13o3qo8">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="arcjuty1" startdate="2026-08-03T20:30:21" version="1.4.2" enddate="2026-08-05T20:51:45">
+            <application xml:id="arcjuty1" startdate="2026-08-03T20:30:21" version="1.4.2" enddate="2026-08-24T21:36:16">
                <name xml:id="nl12mzy2">mei-friend</name>
                <p xml:id="pqnwkgy2">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -54,33 +54,35 @@
             <score xml:id="kvf45nh">
                <scoreDef xml:id="l9yklq8">
                   <staffGrp xml:id="o14df5g">
-                     <staffDef xml:id="P1" n="1" lines="5" ppq="8">
-                        <instrDef xml:id="t1b726bj" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="c16smkoc" shape="G" line="2" />
-                        <keySig xml:id="d1r36xif" sig="2s" />
-                     </staffDef>
-                     <staffGrp xml:id="P3" bar.thru="true">
-                        <grpSym xml:id="cpk9td" symbol="brace" />
-                        <instrDef xml:id="gdjvtzp" midi.channel="2" midi.instrnum="0" midi.volume="77%" />
-                        <staffDef xml:id="P2" n="2" lines="5" ppq="8">
-                           <instrDef xml:id="m1j1aws6" midi.channel="1" midi.instrnum="0" midi.volume="77%" />
-                           <clef xml:id="vx1vsgs" shape="G" line="2" />
-                           <keySig xml:id="wz1obf4" sig="2s" />
+                     <staffGrp xml:id="oeri" symbol="bracket">
+                        <staffDef xml:id="P1" n="1" lines="5" ppq="8">
+                           <instrDef xml:id="t1b726bj" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="c16smkoc" shape="G" line="2" />
+                           <keySig xml:id="d1r36xif" sig="2s" />
                         </staffDef>
-                        <staffDef xml:id="i8hmtve" n="3" lines="5" ppq="8">
-                           <clef xml:id="p1k9q0d8" shape="G" line="2" />
-                           <keySig xml:id="qtff49d" sig="2s" />
+                        <staffGrp xml:id="P3" bar.thru="true">
+                           <grpSym xml:id="cpk9td" symbol="brace" />
+                           <instrDef xml:id="gdjvtzp" midi.channel="2" midi.instrnum="0" midi.volume="77%" />
+                           <staffDef xml:id="P2" n="2" lines="5" ppq="8">
+                              <instrDef xml:id="m1j1aws6" midi.channel="1" midi.instrnum="0" midi.volume="77%" />
+                              <clef xml:id="vx1vsgs" shape="G" line="2" />
+                              <keySig xml:id="wz1obf4" sig="2s" />
+                           </staffDef>
+                           <staffDef xml:id="i8hmtve" n="3" lines="5" ppq="8">
+                              <clef xml:id="p1k9q0d8" shape="G" line="2" />
+                              <keySig xml:id="qtff49d" sig="2s" />
+                           </staffDef>
+                        </staffGrp>
+                        <staffDef xml:id="s16kjw62" n="4" lines="5" ppq="8">
+                           <clef xml:id="zlegc1p" shape="C" line="3" />
+                           <keySig xml:id="alij1kg" sig="2s" />
+                        </staffDef>
+                        <staffDef xml:id="P4" n="5" lines="5" ppq="8">
+                           <instrDef xml:id="ym5fybq" midi.channel="4" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="hygbjh0" shape="F" line="4" />
+                           <keySig xml:id="ihkql0n" sig="2s" />
                         </staffDef>
                      </staffGrp>
-                     <staffDef xml:id="s16kjw62" n="4" lines="5" ppq="8">
-                        <clef xml:id="zlegc1p" shape="C" line="3" />
-                        <keySig xml:id="alij1kg" sig="2s" />
-                     </staffDef>
-                     <staffDef xml:id="P4" n="5" lines="5" ppq="8">
-                        <instrDef xml:id="ym5fybq" midi.channel="4" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="hygbjh0" shape="F" line="4" />
-                        <keySig xml:id="ihkql0n" sig="2s" />
-                     </staffDef>
                      <staffGrp xml:id="P7z" bar.thru="true">
                         <grpSym xml:id="h1t6v2nbe" symbol="brace" />
                         <staffDef xml:id="P5" n="6" lines="5" ppq="8">
@@ -485,8 +487,8 @@
                            <rest xml:id="u28ynh4" dur.ppq="4" dur="8" />
                         </layer>
                      </staff>
-                     <dynam xml:id="zwcyo69" place="above" staff="7" tstamp="1.5" val="61" vgrp="704">p</dynam>
-                     <dynam xml:id="n73tct8" place="above" staff="9" tstamp="1" val="61" vgrp="704">p</dynam>
+                     <dynam xml:id="zwcyo69" place="below" staff="6" tstamp="1" val="61" vgrp="704">(p)</dynam>
+                     <dynam xml:id="n73tct8" place="below" staff="8" tstamp="1" val="61" vgrp="704">(p)</dynam>
                   </measure>
                   <measure xml:id="f1a1owje" n="5" facs="#zone_cde0875f3b5f4ace8a">
                      <staff xml:id="olfwrpr" n="1">
@@ -657,7 +659,8 @@
                            <note xml:id="w1k5trjr" dur.ppq="8" dur="4" oct="3" pname="f" stem.dir="down" accid.ges="s" />
                         </layer>
                      </staff>
-                     <dynam xml:id="se04f6" place="above" staff="9" tstamp="1" val="90" vgrp="704">f</dynam>
+                     <dynam xml:id="se04f6" place="below" staff="8" tstamp="1" val="90" vgrp="704">(f)</dynam>
+                     <dynam xml:id="dgipewi1" staff="6" startid="#ofqacps">(f)</dynam>
                   </measure>
                   <measure xml:id="ftxcvcb" n="7" facs="#zone_70b6919c8b5f457dab">
                      <staff xml:id="o2ockgg" n="1">
@@ -925,8 +928,9 @@
                            <note xml:id="xx3qogg" dur.ppq="4" dur="8" oct="3" pname="e" stem.dir="down" />
                         </layer>
                      </staff>
-                     <dynam xml:id="ypk9ab2" place="above" staff="7" tstamp="1" val="61" vgrp="704">p</dynam>
+                     <dynam xml:id="ypk9ab2" place="below" staff="6" tstamp="1" val="61" vgrp="704">(p)</dynam>
                      <slur xml:id="six4mz11" endid="#n71t1jc1" staff="2" startid="#jigb14j"/>
+                     <dynam xml:id="dp7omvx2" staff="8" startid="#l1cd43c5">(p)</dynam>
                   </measure>
                   <pb xml:id="d1e5h3fx" />
                   <measure xml:id="t5906gq" n="10" facs="#zone_e8b2862a58974e8188">
