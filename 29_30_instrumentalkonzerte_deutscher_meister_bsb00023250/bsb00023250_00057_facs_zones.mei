@@ -59,33 +59,35 @@
             <score xml:id="s1jlqhr4">
                <scoreDef xml:id="t18q6a0f">
                   <staffGrp xml:id="w49sis1">
-                     <staffDef xml:id="P1" n="1" lines="5" ppq="8">
-                        <instrDef xml:id="bvj0znk" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="k1j3txye" shape="G" line="2" />
-                        <keySig xml:id="l1g0dvw7" sig="2s" />
-                     </staffDef>
-                     <staffGrp xml:id="P2" bar.thru="true">
-                        <grpSym xml:id="a12v8vfs" symbol="brace" />
-                        <instrDef xml:id="e14u08ff" midi.channel="1" midi.instrnum="0" midi.volume="77%" />
-                        <staffDef xml:id="g1q2jyg2" n="2" lines="5" ppq="8">
-                           <clef xml:id="n1gu8jrh" shape="G" line="2" />
-                           <keySig xml:id="o19ysadc" sig="2s" />
+                     <staffGrp xml:id="nsfb4f" symbol="bracket">
+                        <staffDef xml:id="P1" n="1" lines="5" ppq="8">
+                           <instrDef xml:id="bvj0znk" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="k1j3txye" shape="G" line="2" />
+                           <keySig xml:id="l1g0dvw7" sig="2s" />
                         </staffDef>
-                        <staffDef xml:id="q1f5zonr" n="3" lines="5" ppq="8">
-                           <clef xml:id="xbvxkbu" shape="G" line="2" />
-                           <keySig xml:id="yqjjzlv" sig="2s" />
+                        <staffGrp xml:id="P2" bar.thru="true">
+                           <grpSym xml:id="a12v8vfs" symbol="brace" />
+                           <instrDef xml:id="e14u08ff" midi.channel="1" midi.instrnum="0" midi.volume="77%" />
+                           <staffDef xml:id="g1q2jyg2" n="2" lines="5" ppq="8">
+                              <clef xml:id="n1gu8jrh" shape="G" line="2" />
+                              <keySig xml:id="o19ysadc" sig="2s" />
+                           </staffDef>
+                           <staffDef xml:id="q1f5zonr" n="3" lines="5" ppq="8">
+                              <clef xml:id="xbvxkbu" shape="G" line="2" />
+                              <keySig xml:id="yqjjzlv" sig="2s" />
+                           </staffDef>
+                        </staffGrp>
+                        <staffDef xml:id="P3" n="4" lines="5" ppq="8">
+                           <instrDef xml:id="arp6q9g" midi.channel="8" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="j1h7s6ar" shape="C" line="3" />
+                           <keySig xml:id="k1gyy5by" sig="2s" />
+                        </staffDef>
+                        <staffDef xml:id="P4" n="5" lines="5" ppq="8">
+                           <instrDef xml:id="t1idtwoj" midi.channel="10" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="c1s6kscx" shape="F" line="4" />
+                           <keySig xml:id="d1o014oc" sig="2s" />
                         </staffDef>
                      </staffGrp>
-                     <staffDef xml:id="P3" n="4" lines="5" ppq="8">
-                        <instrDef xml:id="arp6q9g" midi.channel="8" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="j1h7s6ar" shape="C" line="3" />
-                        <keySig xml:id="k1gyy5by" sig="2s" />
-                     </staffDef>
-                     <staffDef xml:id="P4" n="5" lines="5" ppq="8">
-                        <instrDef xml:id="t1idtwoj" midi.channel="10" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="c1s6kscx" shape="F" line="4" />
-                        <keySig xml:id="d1o014oc" sig="2s" />
-                     </staffDef>
                      <staffGrp xml:id="P5" bar.thru="true">
                         <grpSym xml:id="ej0aotj" symbol="brace" />
                         <instrDef xml:id="ipe7v2l" midi.channel="11" midi.instrnum="0" midi.volume="77%" />
