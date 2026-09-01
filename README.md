@@ -31,7 +31,7 @@ The current MEI files are based on OMR data from the musiconn.scoresearch projec
 |-- README.md
 `-- 29_30_instrumentalkonzerte_deutscher_meister_bsb00023250/
     |-- bsb00023250_00031_facs_zones.mei
-    |-- bsb00023250_00034_facs_zones.mei
+    |-- bsb00023250_00032_facs_zones.mei
     `-- ...
 ```
 
@@ -82,9 +82,9 @@ Keep the header intentionally lean. Avoid `xml:id` values in the header unless a
 
 ## Current Progress
 
-Updated: 2026-07-01.
+Updated: 2026-09-01.
 
-Current page status: 298 page-level MEI files are present, covering BSB image numbers `00031` through `00330`. Image numbers `00032` and `00033` are currently missing from that sequence. No page currently contains mei-friend edit metadata.
+Current page status: 300 page-level MEI files are present, covering BSB image numbers `00031` through `00330` with no gaps. Pages `00032`, `00033`, and `00052` were converted from Dorico MusicXML and given IIIF facsimiles and measure zones. No page currently contains mei-friend edit metadata.
 
 ## Funding
 
