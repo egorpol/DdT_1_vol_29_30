@@ -6,7 +6,6 @@
       <fileDesc xml:id="f29gl27">
          <titleStmt xml:id="tuwswqo">
             <title />
-            <respStmt />
          </titleStmt>
          <pubStmt xml:id="p16xp7y8">
             <date isodate="2026-08-29" type="encoding-date">2026-08-29</date>
@@ -42,48 +41,44 @@
             <score xml:id="q72ki1m">
                <scoreDef xml:id="rvtrjz3">
                   <staffGrp xml:id="t1ad1sym">
-                     <staffDef xml:id="P1" n="1" lines="5" ppq="4">
-                        <label xml:id="u1ia11p5">Violin solo</label>
-                        <clef xml:id="ez4cm7u" shape="G" line="2" />
-                        <keySig xml:id="f1e68fmw" mode="major" sig="2s" />
-                        <meterSig xml:id="g15xylwe" count="4" unit="4" />
-                     </staffDef>
-                     <staffDef xml:id="P2" n="2" lines="5" ppq="8">
-                        <label xml:id="s1h8kucf">Violin 1</label>
-                        <clef xml:id="cwanv7g" shape="G" line="2" />
-                        <keySig xml:id="dgspjs7" mode="major" sig="2s" />
-                        <meterSig xml:id="e1kkql02" count="4" unit="4" />
-                     </staffDef>
-                     <staffDef xml:id="P3" n="3" lines="5" ppq="2">
-                        <label xml:id="e1rtg44s">Violin 2</label>
-                        <clef xml:id="o8ap7y0" shape="G" line="2" />
-                        <keySig xml:id="p7pwt56" mode="major" sig="2s" />
-                        <meterSig xml:id="q17v71d3" count="4" unit="4" />
-                     </staffDef>
-                     <staffDef xml:id="P4" n="4" lines="5" ppq="2">
-                        <label xml:id="y1pxk4wj">Viola</label>
-                        <clef xml:id="ivu6hfo" shape="C" line="3" />
-                        <keySig xml:id="j1g63h54" mode="major" sig="2s" />
-                        <meterSig xml:id="kluzzoz" count="4" unit="4" />
-                     </staffDef>
+                     <staffGrp xml:id="msdnf" symbol="bracket">
+                        <staffDef xml:id="P1" n="1" lines="5" ppq="4">
+                           <clef xml:id="ez4cm7u" shape="G" line="2" />
+                           <keySig xml:id="f1e68fmw" mode="major" sig="2s" />
+                           <meterSig xml:id="g15xylwe" count="4" unit="4" sym="common"/>
+                        </staffDef>
+                        <staffDef xml:id="P2" n="2" lines="5" ppq="8">
+                           <clef xml:id="cwanv7g" shape="G" line="2" />
+                           <keySig xml:id="dgspjs7" mode="major" sig="2s" />
+                           <meterSig xml:id="e1kkql02" count="4" unit="4" sym="common"/>
+                        </staffDef>
+                        <staffDef xml:id="P3" n="3" lines="5" ppq="2">
+                           <clef xml:id="o8ap7y0" shape="G" line="2" />
+                           <keySig xml:id="p7pwt56" mode="major" sig="2s" />
+                           <meterSig xml:id="q17v71d3" count="4" unit="4" sym="common" />
+                        </staffDef>
+                        <staffDef xml:id="P4" n="4" lines="5" ppq="2">
+                           <clef xml:id="ivu6hfo" shape="C" line="3" />
+                           <keySig xml:id="j1g63h54" mode="major" sig="2s" />
+                           <meterSig xml:id="kluzzoz" count="4" unit="4" sym="common" />
+                        </staffDef>
+                     </staffGrp>
                      <staffGrp xml:id="P6" bar.thru="true">
                         <grpSym xml:id="pkyyztp" symbol="brace" />
-                        <label xml:id="s1asdyny">Harpsichord</label>
                         <staffDef xml:id="vj66f1v" n="5" lines="5" ppq="2">
                            <clef xml:id="c13cr7ns" shape="G" line="2" />
                            <keySig xml:id="df8jhm" mode="major" sig="2s" />
-                           <meterSig xml:id="eqj7ru3" count="4" unit="4" />
+                           <meterSig xml:id="eqj7ru3" count="4" unit="4" sym="common" />
                         </staffDef>
                         <staffDef xml:id="fyf2roh" n="6" lines="5" ppq="2">
                            <clef xml:id="m11rbmnp" shape="F" line="4" />
                            <keySig xml:id="n7o18u2" mode="major" sig="2s" />
-                           <meterSig xml:id="op0ik94" count="4" unit="4" />
+                           <meterSig xml:id="op0ik94" count="4" unit="4" sym="common" />
                         </staffDef>
                      </staffGrp>
                   </staffGrp>
                </scoreDef>
                <section xml:id="s1kvdc8w">
-                  <expansion plist="#mnxx4h9" xml:id="n1i22z6g" />
                   <section xml:id="mnxx4h9">
                      <measure xml:id="h1dy7r8v" n="1" facs="#zone_2d3bd189b5ec41be87">
                         <staff xml:id="q1ijj0nq" n="1">
@@ -186,7 +181,6 @@
                            </layer>
                         </staff>
                      </measure>
-                     <scoreDef xml:id="q1e8wm0g" ppq="8" />
                      <measure xml:id="g1kra9hk" n="2" facs="#zone_74bb7a1ac4d94682b4">
                         <staff xml:id="p1s2ika3" n="1">
                            <layer xml:id="r1cxs3em" n="1">
@@ -326,7 +320,6 @@
                            </layer>
                         </staff>
                      </measure>
-                     <scoreDef xml:id="t4qza0f" ppq="4" />
                      <measure xml:id="j1l4um60" n="3" facs="#zone_9ff26365a986424c87">
                         <staff xml:id="s15aspv8" n="1">
                            <layer xml:id="u1r182ez" n="1">
@@ -461,7 +454,6 @@
                            </layer>
                         </staff>
                      </measure>
-                     <scoreDef xml:id="z153yqs3" ppq="8" />
                      <measure xml:id="p1uf9jwu" n="4" facs="#zone_31964274b3ab45979d">
                         <staff xml:id="y7wz3uk" n="1">
                            <layer xml:id="a6jgizi" n="1">
@@ -1249,9 +1241,6 @@
                            </layer>
                         </staff>
                      </measure>
-                     <scoreDef xml:id="p18g63ji" ppq="8">
-                        <meterSig xml:id="rfnle97" count="3" unit="4" />
-                     </scoreDef>
                      <measure xml:id="f3b5m6u" metcon="false" n="10" facs="#zone_4eeef328810f49c39f">
                         <staff xml:id="o3rg0zg" n="1">
                            <layer xml:id="qjxm8pp" n="1">
