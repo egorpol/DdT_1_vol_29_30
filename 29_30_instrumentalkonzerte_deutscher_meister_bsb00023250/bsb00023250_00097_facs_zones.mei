@@ -18,7 +18,7 @@
                <name xml:id="n1d78cua">Verovio</name>
                <p xml:id="p94uj4f">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="a9vbohv1" startdate="2026-09-23T08:57:27" version="1.4.2" enddate="2026-09-23T09:08:46">
+            <application xml:id="a9vbohv1" startdate="2026-09-23T08:57:27" version="1.4.2" enddate="2026-09-23T20:09:55">
                <name xml:id="necyd8u1">mei-friend</name>
                <p xml:id="p0w3gey1">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -30,6 +30,7 @@
          <surface xml:id="surface_7cbbdf050994" n="1" ulx="0" uly="0" lrx="4133" lry="5569">
             <graphic xml:id="graphic_7cbbdf050994" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00023250_00097/full/4134,/0/default.jpg" width="4134" height="5570" />
             <zone xml:id="zone_1c5195e4afd848839c" type="measure" ulx="286" uly="232" lrx="1241" lry="1899" />
+            <zone xml:id="zhlbej2" lrx="989" lry="1062" type="note" ulx="945" uly="954"/>
             <zone xml:id="zone_aa59b82fcd1f462887" type="measure" ulx="1164" uly="237" lrx="1802" lry="1892" />
             <zone xml:id="zone_2775f35d49ed4d7aa2" type="measure" ulx="1729" uly="230" lrx="2380" lry="1892" />
             <zone xml:id="zone_a213d862dc0a46ebaf" type="measure" ulx="2314" uly="213" lrx="3077" lry="1881" />
@@ -130,7 +131,7 @@
                      <staff xml:id="w1jbvtq9" n="1">
                         <layer xml:id="yuavux5" n="1">
                            <chord xml:id="ahah51i" dur.ppq="4" dur="8" stem.dir="up">
-                              <note xml:id="z1isjiwa" oct="3" pname="a" />
+                              <note xml:id="z1isjiwa" facs="#zhlbej2" oct="3" pname="a"/>
                               <note xml:id="b1o32aph" oct="4" pname="e">
                                  <accid xml:id="c18zkued" accid="n" />
                               </note>
@@ -1743,6 +1744,24 @@
                      </staff>
                   </measure>
                   <measure xml:id="x71eye4" n="19" facs="#zone_f1bf6c6d666e4de58c">
+                     <harm xml:id="hgfgug4" staff="4" tstamp="1">
+                        <fb>
+                           <f>6</f>
+                           <f>4</f>
+                        </fb>
+                     </harm>
+                     <harm xml:id="zhftu56" staff="4" tstamp="2">
+                        <fb>
+                           <f>6̸</f>
+                           <f>4</f>
+                        </fb>
+                     </harm>
+                     <harm xml:id="fjuzg6" staff="4" tstamp="3">
+                        <fb>
+                           <f>♯</f>
+                         
+                        </fb>
+                     </harm>
                      <staff xml:id="gutbkiv" n="1">
                         <layer xml:id="j125rfl" n="1">
                            <note xml:id="kp3odjg" dur.ppq="0" dur="8" oct="6" pname="c" grace="unacc" stem.dir="up" stem.mod="1slash" />
@@ -1848,7 +1867,6 @@
                      </staff>
                      <dynam xml:id="pl6gtzk" place="below" staff="1" tstamp="3.75" val="51" vgrp="793">pp</dynam>
                      <dynam xml:id="d1o12yo4" place="below" staff="3" tstamp="3.75" val="51" vgrp="793">pp</dynam>
-                     <pedal xml:id="rq7e7yf" staff="4" tstamp="2.4" dir="up" place="below" vgrp="79" />
                      <tie xml:id="utguvrf" startid="#s1lscthu" endid="#a1shhcqm" />
                      <tie xml:id="xbisul4" startid="#vt5n7e4" endid="#c7ttzjs" />
                      <tie xml:id="zgk8idc" startid="#y2465m0" endid="#e19yx16j" />
