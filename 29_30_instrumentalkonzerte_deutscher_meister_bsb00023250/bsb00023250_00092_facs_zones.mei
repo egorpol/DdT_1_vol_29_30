@@ -18,7 +18,7 @@
                <name xml:id="nrj566b">Verovio</name>
                <p xml:id="p1ke4dl">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="abgqvhi1" startdate="2026-09-22T09:44:46" version="1.4.2" enddate="2026-10-02T14:00:59">
+            <application xml:id="abgqvhi1" startdate="2026-09-22T09:44:46" version="1.4.2" enddate="2026-10-02T14:28:41">
                <name xml:id="ndyre2e">mei-friend</name>
                <p xml:id="p2i0dvs1">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -1187,27 +1187,28 @@
                               <note xml:id="r1tm4dja" dur.ppq="4" dur="8" oct="4" pname="d" stem.dir="down" />
                               <note xml:id="s1kxtbkt" dur.ppq="4" dur="8" oct="4" pname="d" stem.dir="down" />
                            </beam>
-                           <chord xml:id="u16xwh8n" dur.ppq="8" dur="4" stem.dir="down">
-                              <note xml:id="tz7vxi4" oct="3" pname="g" />
-                              <note xml:id="v1llzitl" oct="3" pname="a" />
-                           </chord>
-                           <space xml:id="wm5jo4k" dur.ppq="8" dur="4" />
+                           <bTrem unitdur="8">
+                           	<note xml:id="xz2rt5u74g" dur.ppq="16" dur="2" oct="4" pname="f" stem.dir="down" />
+                           </bTrem>
                         </layer>
                      </staff>
                      <staff xml:id="d1pwbzfk" n="4">
                         <layer xml:id="e6ldaem" n="1">
-                           <rest xml:id="fvjsaps" dur.ppq="4" dur="8" />
-                           <space xml:id="g1culsrw" dots="1" dur.ppq="20" dur="2" />
+                           <bTrem unitdur="8">
+                              <note xml:id="xz2rt374g" accid.ges="f" dots="1" dur="2" dur.ppq="16" oct="2" pname="b" stem.dir="up"/>
+                           </bTrem>
                         </layer>
                      </staff>
                      <staff xml:id="sdj5mnj" n="5">
                         <layer xml:id="u12zkqd7" n="1">
-                           <mSpace xml:id="wpfk981" />
+                           <mRest xml:id="wpfk981" />
                         </layer>
                      </staff>
                      <staff xml:id="t16ugysw" n="6">
                         <layer xml:id="x1gl12ab" n="5">
-                           <note xml:id="ye7gjz0" dots="1" dur.ppq="24" dur="2" oct="2" pname="b" stem.dir="up" accid.ges="f" />
+                           <bTrem unitdur="8">
+                           	<note xml:id="ye7gjz0" dots="1" dur.ppq="24" dur="2" oct="2" pname="b" stem.dir="up" accid.ges="f" />
+                           </bTrem>
                         </layer>
                      </staff>
                      <staff xml:id="zv44xsp" n="7">
@@ -1232,9 +1233,9 @@
                      </staff>
                      <staff xml:id="ad35i86" n="8">
                         <layer xml:id="r9b7bzc" n="5">
-                           <note xml:id="sbm0w48" dots="1" dur.ppq="24" dur="2" oct="2" pname="b" stem.dir="up" accid.ges="f">
-                              <artic xml:id="u3stwp8" artic="stacc" />
-                           </note>
+                           <bTrem unitdur="8">
+                           	<note xml:id="sbm0w48" dots="1" dur.ppq="24" dur="2" oct="2" pname="b" stem.dir="up" accid.ges="f" />
+                           </bTrem>
                         </layer>
                      </staff>
                   </measure>
