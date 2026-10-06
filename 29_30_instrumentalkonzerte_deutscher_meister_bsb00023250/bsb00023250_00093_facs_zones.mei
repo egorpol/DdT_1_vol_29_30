@@ -18,7 +18,7 @@
                <name xml:id="nudoanm">Verovio</name>
                <p xml:id="p6fknqx">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="ahozlkg" startdate="2026-09-22T09:56:22" version="1.4.2" enddate="2026-10-06T09:22:31">
+            <application xml:id="ahozlkg" startdate="2026-09-22T09:56:22" version="1.4.2" enddate="2026-10-06T09:29:48">
                <name xml:id="n1kq38s1">mei-friend</name>
                <p xml:id="pr775ss1">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -2344,7 +2344,6 @@
                               <accid xml:id="j1k241v7" accid="f" />
                            </note>
                            <rest xml:id="k1birzpv" dur.ppq="8" dur="4" />
-                           <space xml:id="l191nqs9" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="s1k8qh8m" n="3">
@@ -2353,21 +2352,18 @@
                               <accid xml:id="vyeqio4" accid="f" />
                            </note>
                            <rest xml:id="xu66el3" dur.ppq="8" dur="4" />
-                           <space xml:id="yh8admh" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="n1ynswcn" n="4">
                         <layer xml:id="o2z5nj4" n="1">
                            <note xml:id="pc7grz7" dur.ppq="16" dur="2" oct="3" pname="e" stem.dir="down">
-                              <artic xml:id="q18w5vjj" artic="stacc" />
                            </note>
                            <rest xml:id="s1k3gkxo" dur.ppq="8" dur="4" />
-                           <space xml:id="tr08xrk" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="hz0xzjv" n="5">
                         <layer xml:id="j1h1sz6" n="1">
-                           <mSpace xml:id="l14hupsr" />
+                           <mRest xml:id="l14hupsr" />
                         </layer>
                      </staff>
                      <staff xml:id="i146vbtl" n="6">
@@ -2376,12 +2372,26 @@
                               <accid xml:id="o1k63icg" accid="f" />
                            </note>
                            <rest xml:id="qc55jxm" dur.ppq="8" dur="4" />
-                           <space xml:id="r19p12lk" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="ycsuasg" n="7">
-                        <layer xml:id="agwi1u0" n="1">
-                           <mSpace xml:id="c1kab1xc" />
+                        <layer xml:id="agwi41u0" n="1">
+                           <chord xml:id="dfhfj454" dur="2" stem.dir="down">
+                              <note xml:id="rhjfgmh5" accid.ges="f" oct="4" pname="b"/>
+                              <note xml:id="n7vp41j2" oct="4" pname="g"/>
+                           </chord>
+                           <chord xml:id="ftjgzk" dur="4" stem.dir="down">
+                              <note xml:id="ghkhj5" accid.ges="f" oct="4" pname="b"/>
+                              <note xml:id="hgjuhkzu" oct="4" pname="g"/>
+                           </chord>
+                        </layer>
+                        <layer xml:id="srhftj" n="2">
+                           <note xml:id="pongrazr65" dur.ppq="16" dur="4" oct="5" pname="d" stem.dir="up" />
+                           <note xml:id="nb76p8f" dur="4" oct="5" pname="c" stem.dir="up">
+                              <accid xml:id="azqxoc91" accid="s"/>
+                           </note>
+                           <note xml:id="nuw2ppj1" dur="4" oct="5" pname="g" stem.dir="up"/>
+                          
                         </layer>
                      </staff>
                      <staff xml:id="z1i0a5qp" n="8">
@@ -2396,6 +2406,10 @@
                      <trill xml:id="w1yggp6l" staff="3" startid="#uir117i" />
                      <trill xml:id="r1wege61" staff="4" startid="#pc7grz7" />
                      <trill xml:id="pxbxt1j" staff="6" startid="#n1wuiq2e" />
+                     <mordent xml:id="mc0wq6e1" staff="1" startid="#d1lj13ur"/>
+                     <mordent xml:id="mcesz6x2" staff="2" startid="#igud5p9"/>
+                     <tie xml:id="t5dr4g41" endid="#nb76p8f" staff="7" startid="#pongrazr65" curvedir="above" />
+                     <trill xml:id="tophim61" staff="8" startid="#e1d66nyu"/>
                   </measure>
                </section>
             </score>
