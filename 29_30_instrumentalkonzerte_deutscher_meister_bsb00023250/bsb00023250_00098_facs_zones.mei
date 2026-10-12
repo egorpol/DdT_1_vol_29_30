@@ -18,7 +18,7 @@
                <name xml:id="nsqkdzd">Verovio</name>
                <p xml:id="p1pjfv00">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="awql07n2" startdate="2026-10-12T10:21:50" version="1.4.2" enddate="2026-10-12T10:24:44">
+            <application xml:id="awql07n2" startdate="2026-10-12T10:21:50" version="1.4.2" enddate="2026-10-12T10:27:32">
                <name xml:id="ntuqlyr2">mei-friend</name>
                <p xml:id="pxek6kj1">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -355,16 +355,13 @@
                         <layer xml:id="h5xeqj4" n="1">
                            <note xml:id="i1ysg7ec" dur.ppq="16" dur="2" oct="5" pname="c" stem.dir="down" />
                            <rest xml:id="j1ru2sll" dur.ppq="8" dur="4" />
-                           <space xml:id="k1mhu0u0" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="gclz4pu" n="2">
                         <layer xml:id="llcwxel" n="5">
                            <note xml:id="m17l1j1w" dur.ppq="16" dur="2" oct="5" pname="c" stem.dir="down">
-                              <artic xml:id="nfveczm" artic="marc" />
                            </note>
                            <rest xml:id="o1a11m65" dur.ppq="8" dur="4" />
-                           <space xml:id="p5ardu8" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="e1eb5qcs" n="3">
@@ -377,7 +374,6 @@
                               <note xml:id="l1ngvcls" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down" />
                               <note xml:id="mjko21c" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down" />
                            </beam>
-                           <space xml:id="njlwr8x" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="i3j96pj" n="4">
@@ -390,12 +386,11 @@
                               <note xml:id="p1uhl9h9" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" />
                               <note xml:id="quln3sy" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" />
                            </beam>
-                           <space xml:id="r1e5l35x" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="yu9hu0s" n="5">
                         <layer xml:id="abszwnr" n="1">
-                           <mSpace xml:id="c4ys8ab" />
+                           <mRest xml:id="c4ys8ab" />
                         </layer>
                      </staff>
                      <staff xml:id="z2zkzs2" n="6">
@@ -408,7 +403,6 @@
                               <note xml:id="j14dln83" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" />
                               <note xml:id="k1kwy6zx" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" />
                            </beam>
-                           <space xml:id="lc515hs" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="dzyqidw" n="7">
@@ -429,15 +423,17 @@
                               </note>
                               <note xml:id="r8xu44e" dur.ppq="2" dur="16" oct="4" pname="g" stem.dir="down" />
                            </beam>
-                           <space xml:id="s1px078n" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="e1t1kw0k" n="8">
                         <layer xml:id="t19wkt8l" n="5">
-                           <mSpace xml:id="vyedr1l" />
-                        </layer>
+								   <bTrem unitdur="8">
+                              <note xml:id="r1d23z7gst" dots="1" dur="2" dur.ppq="24" oct="3" pname="c" stem.dir="up"/>
+                           </bTrem>                        </layer>
                      </staff>
                      <trill xml:id="njuz25b" staff="7" startid="#mos3ad6" />
+                     <mordent xml:id="mq5wfsg" staff="1" startid="#i1ysg7ec"/>
+                     <mordent xml:id="mthys6g" staff="2" startid="#m17l1j1w"/>
                   </measure>
                   <measure xml:id="q125gb8u" n="4" facs="#zone_112cd8027c80432c97">
                      <harm xml:id="tizu6wh" staff="4" tstamp="1">
