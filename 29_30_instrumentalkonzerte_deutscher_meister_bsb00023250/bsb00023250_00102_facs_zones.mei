@@ -18,7 +18,7 @@
                <name xml:id="nsq08kb">Verovio</name>
                <p xml:id="p12gkzui">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="ao7zfh41" startdate="2026-10-16T10:39:03" version="1.4.2" enddate="2026-10-19T14:35:33">
+            <application xml:id="ao7zfh41" startdate="2026-10-16T10:39:03" version="1.4.2" enddate="2026-10-19T14:37:19">
                <name xml:id="nf1ws7h">mei-friend</name>
                <p xml:id="pxuinpp2">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -1614,28 +1614,28 @@
                               <note xml:id="w11l7jyz" dur.ppq="6" dur="8" oct="5" pname="d" stem.dir="down" accid.ges="s" />
                               <note xml:id="y17pfe12" dur.ppq="6" dur="8" oct="4" pname="a" stem.dir="down" />
                            </beam>
-                           <space xml:id="z17ath03" dur.ppq="12" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="nk64tvf" n="2">
                         <layer xml:id="a65uinj" n="5">
-                           <mSpace xml:id="c1tjbifl" />
+                           <mRest xml:id="c1tjbifl" />
                         </layer>
                      </staff>
                      <staff xml:id="ip2tr9l" n="3">
                         <layer xml:id="jevgihc" n="1">
-                           <mSpace xml:id="l4vfxwm" />
+                           <mRest xml:id="l4vfxwm" />
                         </layer>
                      </staff>
                      <staff xml:id="l404j0r" n="4">
                         <layer xml:id="m6ms6ta" n="1">
-                           <mSpace xml:id="o84m2lh" />
+                           <mRest xml:id="o84m2lh" />
                         </layer>
                      </staff>
                      <staff xml:id="rxjuorb" n="5">
                         <layer xml:id="t1vq3j3b" n="1">
                            <rest xml:id="u1cum2wb" dur.ppq="6" dur="8" />
-                           <note xml:id="xtst9fy" dur.ppq="12" dur="4" oct="5" pname="e" stem.dir="down" />
+                           <note xml:id="xtst9fy" dur="8" dur.ppq="12" oct="5" pname="f" stem.dir="down"/>
+                           <note xml:id="null69n2" dur="4" oct="5" pname="e" stem.dir="down"/>
                            <note xml:id="yrzuc6j" dur.ppq="12" dur="4" oct="5" pname="d" stem.dir="down">
                               <accid xml:id="z1ylipl7" accid="s" />
                            </note>
@@ -1644,22 +1644,24 @@
                      </staff>
                      <staff xml:id="su4sy0h" n="6">
                         <layer xml:id="c13p65rx" n="5">
-                           <note xml:id="d1s04692" dots="1" dur.ppq="36" dur="2" oct="3" pname="f" stem.dir="down" />
-                           <space xml:id="eszp86x" dur.ppq="12" dur="4" />
+                           <bTrem unitdur="8">
+                           	<note xml:id="d1s04692" dots="1" dur.ppq="36" dur="2" oct="3" pname="f" stem.dir="down" />
+                           </bTrem>
                         </layer>
                      </staff>
                      <staff xml:id="nyshbwo" n="7">
                         <layer xml:id="pb4elam" n="1">
-                           <mSpace xml:id="rhibpj7" />
+                           <mRest xml:id="rhibpj7" />
                         </layer>
                      </staff>
                      <staff xml:id="o1m37p8v" n="8">
                         <layer xml:id="s1nonwrm" n="5">
-                           <mSpace xml:id="u53ajuu" />
+                           <mRest xml:id="u53ajuu" />
                         </layer>
                      </staff>
-                     <dynam xml:id="vnyloy5" place="below" staff="5" tstamp="1.5" val="61" vgrp="793">p</dynam>
                      <mordent xml:id="agvkqef" staff="5" startid="#yrzuc6j" form="upper" />
+                     <slur xml:id="s9dimma" endid="#yrzuc6j" staff="5" startid="#null69n2"/>
+                     <dynam xml:id="dlms9sg" staff="5" startid="#xtst9fy">p</dynam>
                   </measure>
                   <measure xml:id="d2a7wvg" n="18" facs="#zone_e8b854d5adc044f5b1">
                      <staff xml:id="m1f466e5" n="1">
