@@ -1,0 +1,23 @@
+# Local settings, environments and Python/Jupyter caches.
+.codex/
+.agents/
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Shared per-score editorial CSVs are tracked; full execution artifacts stay local.
+/validation/runs/
+/validation/viewer-backups/
+/validation/notebook-backups/
+/validation/cleanup-backups/
+/validation/report-backups/
+
+# Local drafts and built viewer output.
+/issue_drafts/
+/_site/

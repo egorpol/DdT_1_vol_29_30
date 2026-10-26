@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1+CMN">
+   <meiHead xml:lang="en">
+      <altId type="repository-stem">[repository stem]</altId>
+      <fileDesc>
+         <titleStmt>
+            <title>[work title]</title>
+            <!-- Composer GND numbers in this volume:
+                 Johann Georg Pisendel 11946912X;
+                 Johann Adolf Hasse 118546651;
+                 Carl Philipp Emanuel Bach 118505505;
+                 Georg Philipp Telemann 11862119X;
+                 Christoph Graupner 118718517;
+                 Gottfried Heinrich Stölzel 118618458;
+                 Conrad Friedrich Hurlebusch 118708236. -->
+            <composer>
+               <persName auth="GND" auth.uri="https://d-nb.info/gnd/[GND]" codedval="[GND]">[composer name]</persName>
+            </composer>
+            <respStmt xml:id="resp.camat">
+               <resp>MEI encoding and work-level assembly</resp>
+               <corpName>CAMAT</corpName>
+            </respStmt>
+            <respStmt xml:id="resp.editor">
+               <resp>OMR correction and editorial review</resp>
+               <persName>[editor name]</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <!-- Use the actual corpus release version; retain a working designation before first release. -->
+            <edition n="0.1.0">Working digital edition</edition>
+         </editionStmt>
+         <pubStmt>
+            <publisher>CAMAT Corpus Editions</publisher>
+            <date isodate="YYYY-MM-DD">YYYY-MM-DD</date>
+            <identifier type="URI">[canonical file URL]</identifier>
+            <availability>
+               <useRestrict>MEI data released under <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</ref>.</useRestrict>
+            </availability>
+         </pubStmt>
+         <sourceDesc>
+            <source xml:id="src.ddt1907" type="printed-edition">
+               <bibl>
+                  <title>Instrumentalkonzerte deutscher Meister</title>
+                  <title type="series">Denkmäler deutscher Tonkunst, first series, vols. 29/30</title>
+                  <composer>[composer name]</composer>
+                  <editor>
+                     <persName auth="GND" auth.uri="https://d-nb.info/gnd/118754688" codedval="118754688">Arnold Schering</persName>
+                  </editor>
+                  <imprint>
+                     <pubPlace>Leipzig</pubPlace>
+                     <publisher>Breitkopf &amp; Härtel</publisher>
+                     <date isodate="1907">1907</date>
+                  </imprint>
+                  <identifier type="URN">urn:nbn:de:bvb:12-bsb00023250-6</identifier>
+                  <identifier type="BSB-ID">991077497029707356</identifier>
+                  <identifier type="BV">BV007816573</identifier>
+                  <identifier type="OCLC">68616423</identifier>
+                  <physLoc>
+                     <repository>Bayerische Staatsbibliothek, München</repository>
+                     <identifier type="shelfmark">2 Mus.pr. 3951-29/30</identifier>
+                  </physLoc>
+                  <ref type="digital-facsimile" target="https://www.digitale-sammlungen.de/en/view/bsb00023250">BSB digital facsimile</ref>
+                  <ref type="iiif-manifest" target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00023250/manifest">IIIF Presentation manifest</ref>
+                  <biblScope unit="page" from="FIRST" to="LAST">pp. FIRST–LAST</biblScope>
+                  <availability>
+                     <useRestrict>Digital facsimile supplied by the Bayerische Staatsbibliothek under <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>.</useRestrict>
+                  </availability>
+               </bibl>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application>
+               <name>musiconn.scoresearch</name>
+               <p>Source OMR data.</p>
+            </application>
+            <application isodate="YYYY-MM-DDThh:mm:ss" version="VERSION">
+               <name>Verovio</name>
+               <p>Transcoded source data from MusicXML to MEI.</p>
+            </application>
+            <application startdate="YYYY-MM-DDThh:mm:ss" enddate="YYYY-MM-DDThh:mm:ss" version="VERSION">
+               <name>mei-friend</name>
+               <p>Manual correction and editorial review.</p>
+            </application>
+         </appInfo>
+         <editorialDecl>
+            <p>This is a corrected digital edition based on DdT 1907. OMR and conversion errors are corrected against its facsimile. Substantive departures from DdT are documented in editorial annotations recording the source reading, encoded reading, evidence or conjectural reasoning, and responsible editor. Additional witnesses consulted for comparison are identified in sourceDesc; source-supported and conjectural emendations are distinguished.</p>
+            <!-- Tailor this paragraph to the actual work and staff arrangement. -->
+            <p>The cembalo staves as printed in DdT are retained as part of that edition. Who realized the figured bass in those staves is not established. They must be selected explicitly when defining an analytical view.</p>
+            <p>Original page and system boundaries are represented by pb and sb elements. Surface and page-break numbers form a work-local sequence beginning with 1; the printed page range is recorded in sourceDesc. Each measure points to a measure zone on the corresponding facsimile surface using @facs.</p>
+         </editorialDecl>
+         <projectDesc>
+            <p>This edition was prepared by CAMAT Corpus Editions as part of a DFG-funded corpus for music-analysis technologies (grant PF 669/18-1).</p>
+         </projectDesc>
+      </encodingDesc>
+      <workList>
+         <work xml:id="work.placeholder">
+            <!-- Catalogue identifier (TWV, Wq/H, GWV, etc.) only when verified against a catalogue; never guessed. -->
+            <identifier type="catalogue">[catalogue number if verified]</identifier>
+            <title>[work title]</title>
+            <composer>
+               <persName auth="GND" auth.uri="https://d-nb.info/gnd/[GND]" codedval="[GND]">[composer name]</persName>
+            </composer>
+            <key pname="c" mode="major">[key]</key>
+            <perfMedium>
+               <perfResList>
+                  <perfRes>[instrument]</perfRes>
+               </perfResList>
+            </perfMedium>
+         </work>
+      </workList>
+      <revisionDesc>
+         <change isodate="YYYY-MM-DD" resp="#resp.camat #resp.editor">
+            <changeDesc>
+               <p>Applied the MEI 5.1 CMN publication profile, expanded source and work metadata, and normalized facsimile page boundaries.</p>
+            </changeDesc>
+         </change>
+         <change isodate="YYYY-MM-DD" resp="#resp.editor">
+            <changeDesc>
+               <p>Completed musical correction and local validation.</p>
+            </changeDesc>
+         </change>
+         <change isodate="YYYY-MM-DD" resp="#resp.camat">
+            <changeDesc>
+               <p>Combined page-level OMR files into work-level MEI.</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <!-- Insert the work's facsimile, body, mdiv with @decls, and score here. -->
+   </music>
+</mei>

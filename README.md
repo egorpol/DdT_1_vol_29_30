@@ -1,105 +1,111 @@
-# DdT 1, Vol. 29/30: Instrumentalkonzerte deutscher Meister
+# DdT 1, Vol. 29/30 — Instrumentalkonzerte deutscher Meister
 
-Work-in-progress MEI corpus for *Instrumentalkonzerte deutscher Meister*, edited by Arnold Schering and published as volumes 29/30 of *Denkmaeler deutscher Tonkunst*, first series.
+This repository contains a work-in-progress scholarly MEI edition of *Instrumentalkonzerte deutscher Meister*, edited by Arnold Schering and published in 1907 as volumes 29/30 of the first series of *Denkmäler deutscher Tonkunst*.
 
-The corpus is currently at the initial page-level OMR stage. The repository contains single-page MEI files derived from the BSB digitization, with linked IIIF facsimile images and measure zones. Work-level MEI files have not yet been assembled.
+The edition began with page-level optical music recognition (OMR) data from [musiconn.scoresearch](https://www.musiconn.de/services/musiconnscoresearch), which is being corrected against the [Bayerische Staatsbibliothek digital facsimile](https://www.digitale-sammlungen.de/en/view/bsb00023250). Editorial work is carried out with [mei-friend](https://mei-friend.mdw.ac.at/). The corpus is at the proofreading stage: 300 page-level files cover the full score, and one work (Pisendel) has been assembled.
 
-The current MEI files are based on OMR data from the musiconn.scoresearch project. Editorial cleanup and correction are intended to be carried out in [mei-friend](https://mei-friend.mdw.ac.at/).
+## Edition at a glance
 
-## Source
+|                     |                                                              |
+| ------------------- | ------------------------------------------------------------ |
+| Contents            | Seven concertos by seven composers                           |
+| Encoding            | MEI 5.1; work files target the Common Music Notation customization at finalization |
+| Editorial unit      | One MEI file per complete work                               |
+| Facsimile alignment | IIIF-linked surfaces with measure-level zones                |
+| Current state       | Pisendel combined; page-level proofreading under way for Hasse and C. P. E. Bach; the others pending |
 
-| Field | Description |
-| --- | --- |
-| Title | *Instrumentalkonzerte deutscher Meister. 29/30* |
-| Preferred title | *Konzerte / Ausw.* |
-| Composers represented | Johann Georg Pisendel; Johann Adolf Hasse; Carl Philipp Emanuel Bach; Georg Philipp Telemann; Christoph Graupner; Gottfried Heinrich Stoelzel; Konrad Friedrich Hurlebusch |
-| Editor | Arnold Schering (GND: [118754688](https://d-nb.info/gnd/118754688)) |
-| Publication | Leipzig: Breitkopf & Haertel, 1907 |
-| Extent | LXXVIII, 300 pages |
-| Holding institution | Bayerische Staatsbibliothek, Muenchen |
-| Shelfmark | 2 Mus.pr. 3951-29/30 |
-| BSB-ID | `991077497029707356` |
-| BV number | `BV007816573` |
-| WorldCat | [68616423](https://search.worldcat.org/title/68616423) |
-| URN | [urn:nbn:de:bvb:12-bsb00023250-6](https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00023250-6) |
-| Digital facsimile | <https://www.digitale-sammlungen.de/en/view/bsb00023250> |
+## Source edition
 
-## Repository Layout
+| Field                 | Description                                                                                         |
+| --------------------- | --------------------------------------------------------------------------------------------------- |
+| Title                 | *Instrumentalkonzerte deutscher Meister*                                                            |
+| Series                | *Denkmäler deutscher Tonkunst*, first series, vols. 29/30                                           |
+| Editor                | Arnold Schering ([GND 118754688](https://d-nb.info/gnd/118754688))                                  |
+| Publication           | Leipzig: Breitkopf & Härtel, 1907                                                                   |
+| Extent               | LXXVIII, 300 pages                                                                                  |
+| Holding institution   | Bayerische Staatsbibliothek, München                                                                |
+| Shelfmark             | 2 Mus.pr. 3951-29/30                                                                                |
+| BSB identifier        | `991077497029707356`                                                                                |
+| BV number             | `BV007816573`                                                                                       |
+| WorldCat              | [OCLC 68616423](https://search.worldcat.org/title/68616423)                                         |
+| Persistent identifier | [urn:nbn:de:bvb:12-bsb00023250-6](https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00023250-6)    |
+| Digital facsimile     | [Bayerische Staatsbibliothek](https://www.digitale-sammlungen.de/en/view/bsb00023250)               |
+| IIIF manifest         | [bsb00023250](https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00023250/manifest)         |
+| Facsimile license     | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)                               |
+| Composers             | [Johann Georg Pisendel](https://d-nb.info/gnd/11946912X) (11946912X); [Johann Adolf Hasse](https://d-nb.info/gnd/118546651) (118546651); [Carl Philipp Emanuel Bach](https://d-nb.info/gnd/118505505) (118505505); [Georg Philipp Telemann](https://d-nb.info/gnd/11862119X) (11862119X); [Christoph Graupner](https://d-nb.info/gnd/118718517) (118718517); [Gottfried Heinrich Stölzel](https://d-nb.info/gnd/118618458) (118618458); [Conrad Friedrich Hurlebusch](https://d-nb.info/gnd/118708236) (118708236) |
 
-```text
-.
-|-- README.md
-`-- 29_30_instrumentalkonzerte_deutscher_meister_bsb00023250/
-    |-- bsb00023250_00031_facs_zones.mei
-    |-- bsb00023250_00032_facs_zones.mei
-    `-- ...
-```
+Printed page = BSB image number − 30 (image 00031 is printed p. 1). The digitization's front matter is on images 00001–00030.
 
-The repository currently has one main MEI data directory:
+## Corpus contents
 
-- `29_30_instrumentalkonzerte_deutscher_meister_bsb00023250/` contains page-level OMR data derived from the BSB digitization.
+The status describes the complete work-level file, not the presence or edit history of its individual source pages.
 
-The page-level OMR files follow this naming pattern:
+| Composer | Work | Printed pages | BSB images | MEI stem | Status | Proofreading |
+| --- | --- | --- | --- | --- | --- | --- |
+| Johann Georg Pisendel | Konzert für Violine und Streichorchester | 1–32 | 00031–00062 | `pisendel_violin_concerto` | combined | Francy Häring |
+| Johann Adolf Hasse | Konzert für Flöte, zwei Violinen, Viola und Bass | 33–61 | 00063–00091 | `hasse_flute_concerto` | pending | Jingyu Tu |
+| Carl Philipp Emanuel Bach | Concerto a Cembalo concertato, 2 Violini, Viola e Basso | 62–102 | 00092–00132 | `cpe_bach_keyboard_concerto` | pending | Lea Meret Beck |
+| Georg Philipp Telemann | Konzert für Violine und Streichorchester, 2 Flöten, 2 Oboen, 2 Trompeten und Pauken | 103–195 | 00133–00225 | `telemann_violin_concerto` | pending | — |
+| Christoph Graupner | Concerto a 2 Flauti traversieri, 2 Hautbois, 2 Violini, Viola e Cembalo | 196–220 | 00226–00250 | `graupner_concerto_2_flutes_2_oboes` | pending | You Zhou |
+| Gottfried Heinrich Stölzel | Concerto grosso a quattro Chori | 221–272 | 00251–00302 | `stoelzel_concerto_grosso_quattro_chori` | pending | — |
+| Conrad Friedrich Hurlebusch | Konzert für 2 Oboen, Fagott, Solovioline und Streichorchester | 273–300 | 00303–00330 | `hurlebusch_concerto_2_oboes_fagott_violin` | pending | — |
 
-```text
-bsb00023250_<page-image-number>_facs_zones.mei
-```
+Status terms are used as follows:
 
-For example, `bsb00023250_00031_facs_zones.mei` points to the corresponding IIIF image:
+- `pending`: no complete work-level MEI has been assembled.
+- `combined`: source-page encodings have been assembled with linked facsimile surfaces.
+- `corrected`: the musical text and facsimile references have been reviewed and local consistency checks completed.
+- `finalized`: metadata, editorial review, validation, and publication naming are complete.
 
-```text
-https://api.digitale-sammlungen.de/iiif/image/v2/bsb00023250_00031/full/4134,/0/default.jpg
-```
+The Proofreading column names who is correcting the page-level files for that work (or has done so). It does not by itself change the work-level status.
 
-## Planned Work-Level Files
+Pisendel was assembled by Egor Polyakov on 2026-09-02 from the 32 page files (commit `dd634c6`): one `mdiv`, 480 measures, 32 facsimile surfaces with measure zones. Francy Häring corrected the page files (July–September 2026) and continued correcting in the combined file until 2026-10-07. Work-level correction is not complete; its consistency report currently has 206 rows. The file still carries the minimal OMR/transcoding header; the publication header is applied at finalization.
 
-The work-level files have not yet been assembled. The following table follows the source table of contents and can be used as the initial tracking plan.
+## Repository contents
 
-| Composer | Work | First BSB image | Suggested MEI stem | Status |
-| --- | --- | ---: | --- | --- |
-| Johann Georg Pisendel | Konzert fuer Violine und Streichorchester | `00031` | `pisendel_violin_concerto` | pending |
-| Johann Adolf Hasse | Konzert fuer Floete, zwei Violinen, Viola und Bass | `00063` | `hasse_flute_concerto` | pending |
-| Carl Philipp Emanuel Bach | Concerto a Cembalo concertato, 2 Violini, Viola e Basso | `00092` | `cpe_bach_keyboard_concerto` | pending |
-| Georg Philipp Telemann | Konzert fuer Violine und Streichorchester, 2 Floeten, 2 Oboen, 2 Trompeten und Pauken | `00133` | `telemann_violin_concerto` | pending |
-| Christoph Graupner | Concerto a 2 Flauti traversieri, 2 Hautbois, 2 Violini, Viola e Cembalo | `00226` | `graupner_concerto_2_flutes_2_oboes` | pending |
-| Gottfried Heinrich Stoelzel | Concerto grosso a quattro Chori | `00251` | `stoelzel_concerto_grosso_quattro_chori` | pending |
-| Konrad Friedrich Hurlebusch | Konzert fuer 2 Oboen, Fagott, Solovioline und Streichorchester | `00303` | `hurlebusch_concerto_2_oboes_fagott_violin` | pending |
+- [`29_30_instrumentalkonzerte_final/`](29_30_instrumentalkonzerte_final/) contains the combined work-level editions. A temporary `_corr` filename suffix indicates a file still undergoing editorial work. Beside each assembled score is its tracked `_consistency_report.csv`.
+- [`29_30_instrumentalkonzerte_deutscher_meister_bsb00023250/`](29_30_instrumentalkonzerte_deutscher_meister_bsb00023250/) preserves the page-level OMR source material. Page files are named `bsb00023250_<image-number>_facs_zones.mei` and point at IIIF images such as `https://api.digitale-sammlungen.de/iiif/image/v2/bsb00023250_<image>/full/4134,/0/default.jpg`.
+- [`docs/mei-encoding-profile.md`](docs/mei-encoding-profile.md) documents the publication header, facsimile conventions, and validation profile.
+- [`docs/editorial-workflow.md`](docs/editorial-workflow.md) records file naming, work-level statuses, and the correction sequence.
+- [`docs/editorial-policy.md`](docs/editorial-policy.md) defines source relationships, correction categories and responsibility.
+- [`docs/templates/mei-header-template.xml`](docs/templates/mei-header-template.xml) is the reusable publication header skeleton.
+- [`schemas/mei-CMN-5.1.rng`](schemas/mei-CMN-5.1.rng) is the pinned MEI 5.1 CMN schema for offline validation.
+- [`CHANGELOG.md`](CHANGELOG.md) records notable changes; [`CITATION.cff`](CITATION.cff) holds citation metadata.
 
-Status values for planned work-level files:
+Validation tooling and a web viewer are planned (to be ported from the sibling DdT 1 vol. 11 edition) and are not yet in this repository.
 
-- `pending`: no work-level MEI file has been assembled yet.
-- `combined`: page-level MEI files have been assembled into one work-level MEI file with linked facsimile surfaces.
-- `corrected`: musical text and facsimile references have been corrected and local consistency checks have been reviewed.
-- `finalized`: metadata/header, editorial review, validation, and repository naming are complete.
+## Editorial approach
 
-## MEI Header Policy
+This is a corrected digital edition based on DdT 1907, retaining its staff layout and the cembalo staves as printed in DdT. OMR repairs, source-supported emendations, conjectural emendations and encoding notes are distinguished in the [editorial policy](docs/editorial-policy.md). Substantive departures from DdT are documented in the MEI. Each measure is linked to a zone on the corresponding facsimile surface, allowing the encoded notation and source image to be inspected together.
 
-Final work-level files should carry a compact MEI header rather than the minimal OMR/transcoding header. The header should document the electronic MEI file, the historical source, the encoding process, the encoded work, and meaningful file revision history.
+The MEI 5.1 CMN publication profile is the target for finalizing work-level files. Detailed implementation guidance is kept in the [MEI encoding profile](docs/mei-encoding-profile.md).
 
-Modern project responsibility should be separated from historical source responsibility. Arnold Schering is the editor of the 1907 printed source and should be recorded in `sourceDesc`. The student or researcher who reads and corrects the OMR should be recorded in `titleStmt` using `respStmt`, with a responsibility such as `OMR correction and editorial review`.
+## Contributors
 
-Keep the header intentionally lean. Avoid `xml:id` values in the header unless another element references them. Do not duplicate the same responsibility in both `titleStmt` and `editionStmt`. Keep application metadata concise, and use `revisionDesc` only for meaningful lifecycle events such as assembly, correction, and finalization.
+When a work is finalized, its MEI header records these responsibilities in `titleStmt/respStmt`. MEI encoding and work-level assembly: CAMAT.
 
-## Current Progress
-
-Updated: 2026-09-01.
-
-Current page status: 300 page-level MEI files are present, covering BSB image numbers `00031` through `00330` with no gaps. Pages `00032`, `00033`, and `00052` were converted from Dorico MusicXML and given IIIF facsimiles and measure zones. No page currently contains mei-friend edit metadata.
+| Contributor    | Page-level OMR correction                         | Work-level correction                          |
+| -------------- | ------------------------------------------------- | ---------------------------------------------- |
+| Lea Meret Beck | C. P. E. Bach (in progress)                       | —                                              |
+| Francy Häring  | Pisendel                                          | Pisendel (through 2026-10-07)                  |
+| Egor Polyakov  | pages 2, 3, 22 (Dorico re-encoding)               | Pisendel assembly                              |
+| Jingyu Tu      | Hasse (in progress)                               | —                                              |
+| You Zhou       | Graupner (p. 196 so far)                          | —                                              |
 
 ## Funding
 
-Work on this corpus is funded by the German Research Foundation (DFG), program Library and Information Services - E-Research Technologies (LIS), grant PF 669/18-1.
+Work on this corpus is funded by the German Research Foundation (DFG), programme Library and Information Services — E-Research Technologies (LIS), grant PF 669/18-1.
 
 ## Citation
 
-When citing this corpus, include both the encoded repository and the underlying source:
+Cite this repository as a work in progress, and cite the underlying source edition separately. The same metadata are in [`CITATION.cff`](CITATION.cff); the [changelog](CHANGELOG.md) lists notable changes.
 
-> Instrumentalkonzerte deutscher Meister. Edited by Arnold Schering. Leipzig: Breitkopf & Haertel, 1907. Digitized by Bayerische Staatsbibliothek, `bsb00023250`.
+> Polyakov, Egor, Lea Meret Beck, Francy Häring, Jingyu Tu, and You Zhou. *DdT 1, Vol. 29/30 — Instrumentalkonzerte deutscher Meister*. Work in progress. CAMAT Corpus Editions. https://github.com/egorpol/DdT_1_vol_29_30.
 
-Digital facsimile: <https://www.digitale-sammlungen.de/en/view/bsb00023250>
+> *Instrumentalkonzerte deutscher Meister*. Edited by Arnold Schering. Leipzig: Breitkopf & Härtel, 1907. Digitized by the Bayerische Staatsbibliothek as `bsb00023250`.
 
 ## License
 
-This repository does not yet include a top-level license file. Add one before publishing or distributing corrected MEI data.
+MEI data and documentation are released under [CC BY 4.0](LICENSES/CC-BY-4.0.txt); project-authored code (when present) under the [MIT License](LICENSES/MIT.txt). See [`LICENSE.md`](LICENSE.md) for the split and for third-party material. The unchanged official MEI schema retains its upstream Educational Community License 2.0 notice.
 
-The historical source is in the public domain, but reuse of the BSB facsimile images and metadata may be subject to the terms of the providing institution. The BSB IIIF manifest currently lists the digital facsimile license as [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Please consult the BSB record linked above for current reuse information.
+Third-party facsimile images are separate from the MEI-data license. The BSB digitization is offered under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The MEI files link to these images on the BSB IIIF server; this repository does not copy them.
