@@ -12,7 +12,7 @@ The edition began with page-level optical music recognition (OMR) data from [mus
 | Encoding            | MEI 5.1; work files move to the Common Music Notation customization with their publication header (Pisendel since 2026-10-27) |
 | Editorial unit      | One MEI file per complete work                               |
 | Facsimile alignment | IIIF-linked surfaces with measure-level zones                |
-| Current state       | Pisendel combined; page-level proofreading under way for Hasse and C. P. E. Bach; the others pending |
+| Current state       | Pisendel and Hasse combined; page-level proofreading under way for C. P. E. Bach and Graupner; the others pending |
 
 ## Source edition
 
@@ -43,7 +43,7 @@ The status describes the complete work-level file, not the presence or edit hist
 | Composer | Work | Printed pages | BSB images | MEI stem | Status | Proofreading |
 | --- | --- | --- | --- | --- | --- | --- |
 | Johann Georg Pisendel | Konzert für Violine und Streichorchester | 1–32 | 00031–00062 | `pisendel_violin_concerto` | combined | Francy Häring |
-| Johann Adolf Hasse | Konzert für Flöte, zwei Violinen, Viola und Bass | 33–61 | 00063–00091 | `hasse_flute_concerto` | pending | Jingyu Tu |
+| Johann Adolf Hasse | Konzert für Flöte, zwei Violinen, Viola und Bass | 33–61 | 00063–00091 | `hasse_flute_concerto` | combined | Jingyu Tu |
 | Carl Philipp Emanuel Bach | Concerto a Cembalo concertato, 2 Violini, Viola e Basso | 62–102 | 00092–00132 | `cpe_bach_keyboard_concerto` | pending | Lea Meret Beck |
 | Georg Philipp Telemann | Konzert für Violine und Streichorchester, 2 Flöten, 2 Oboen, 2 Trompeten und Pauken | 103–195 | 00133–00225 | `telemann_violin_concerto` | pending | — |
 | Christoph Graupner | Concerto a 2 Flauti traversieri, 2 Hautbois, 2 Violini, Viola e Cembalo | 196–220 | 00226–00250 | `graupner_concerto_2_flutes_2_oboes` | pending | You Zhou |
@@ -98,8 +98,8 @@ inspection. Dependency updates are explicit, separate operations; validation
 records the actual CAMAT version/revision/source hashes.
 
 The publication work list selects Pisendel. A separate review-only
-[editorial work list](validation/editorial-works.json) covers the same assembled
-score for shared reports; publication candidates still require explicit review.
+[editorial work list](validation/editorial-works.json) covers both assembled
+scores, Pisendel and Hasse, for shared reports; publication candidates still require explicit review.
 Official IIIF Schematron warnings remain pending publication review. See
 [the tool guide](validation/README.md) for all options, reports, scope and
 release gates.
@@ -118,8 +118,8 @@ A work's publication header records these responsibilities in `titleStmt/respStm
 | -------------- | ----------------------------------- | --------------------------------------------------------------------- |
 | Lea Meret Beck | C. P. E. Bach (in progress)         | —                                                                     |
 | Francy Häring  | Pisendel                            | Pisendel (through 2026-10-07)                                         |
-| Egor Polyakov  | pages 2, 3, 22 (Dorico re-encoding) | Work-level assembly of all works (Pisendel so far); Pisendel metadata |
-| Jingyu Tu      | Hasse (in progress)                 | —                                                                     |
+| Egor Polyakov  | pages 2, 3, 22 (Dorico re-encoding) | Work-level assembly of all works (Pisendel and Hasse so far); their metadata |
+| Jingyu Tu      | Hasse                               | —                                                                     |
 | You Zhou       | Graupner (in progress)              | —                                                                     |
 
 ## Funding

@@ -21,21 +21,19 @@ def module():
 def test_editorial_list_covers_assembled_scores_without_expanding_release_scope():
     m = module()
     plan = m.plan_corpus_validation(manifest=ROOT / 'validation/editorial-works.json')
-    assert len(plan['works']) == 1
+    assert [w['key'] for w in plan['works']] == ['pisendel_violin_concerto', 'hasse_flute_concerto']
     assert not plan['unlisted_files']
     assert plan['manifest']['review_only'] is True
     release_list = json.loads((ROOT / 'validation/works.json').read_text())
     assert len(release_list['works']) == 1
-    work = plan['works'][0]
-    assert work['key'] == 'pisendel_violin_concerto'
-    assert work['catalogue'] is None
-    assert work['consulted_sources'] == ['src.ddt1907']
-    assert work['printed_page_range'] == {'from': '1', 'to': '32'}
-    assert len(work['staff_roles']) == 11
-    assert set(work['staff_roles']) == {str(n) for n in range(1, 12)}
-    assert all(work['staff_roles'].values())
-    assert release_list['works'][0]['key'] == work['key']
-    assert release_list['works'][0]['file'] == work['file']
+    for work, pages, staves in zip(plan['works'], [('1', '32'), ('33', '61')], [11, 9]):
+        assert work['catalogue'] is None
+        assert work['consulted_sources'] == ['src.ddt1907']
+        assert work['printed_page_range'] == {'from': pages[0], 'to': pages[1]}
+        assert set(work['staff_roles']) == {str(n) for n in range(1, staves + 1)}
+        assert all(work['staff_roles'].values())
+    assert release_list['works'][0]['key'] == plan['works'][0]['key']
+    assert release_list['works'][0]['file'] == plan['works'][0]['file']
 
 
 def test_review_only_manifest_cannot_be_used_for_release():

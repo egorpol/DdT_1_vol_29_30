@@ -1,8 +1,8 @@
 {
   "format_version": 1,
   "review_only": true,
-  "scope": "Editorial reports for the combined work-level scores (currently Pisendel only); no publication sign-off.",
-  "configuration_basis": "Work filenames, source-page image ranges (BSB image minus 30 equals printed page) and the printed staff labels of the first system (Oboi, Violino concertato, Violino I/II, Viola, Bassi e Fagotti, Cembalo I/II). Staff roles are unreviewed; no catalogue number is verified yet.",
+  "scope": "Editorial reports for the combined work-level scores (currently Pisendel and Hasse); no publication sign-off.",
+  "configuration_basis": "Work filenames, source-page image ranges (BSB image minus 30 equals printed page) and the printed staff labels of each work's first system (Pisendel: Oboi, Violino concertato, Violino I/II, Viola, Bassi e Fagotti, Cembalo I/II; Hasse: Flauto, Violino I/II, Viola, Violoncello e Basso, Cembalo I/II). Staff roles are unreviewed; no catalogue number is verified yet.",
   "release_version": null,
   "release_date": null,
   "immutable_git_ref": null,
@@ -32,6 +32,34 @@
         "9": "cembalo_1_lower",
         "10": "cembalo_2_upper",
         "11": "cembalo_2_lower"
+      },
+      "editorial_status": "combined",
+      "review": null,
+      "annotation_reviews": {}
+    },
+    {
+      "key": "hasse_flute_concerto",
+      "file": "29_30_instrumentalkonzerte_final/hasse_flute_concerto_corr.mei",
+      "final_file": "29_30_instrumentalkonzerte_final/hasse_flute_concerto.mei",
+      "catalogue": null,
+      "consulted_sources": [
+        "src.ddt1907"
+      ],
+      "printed_page_range": {
+        "from": "33",
+        "to": "61"
+      },
+      "primary_canvas_prefix": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00023250/canvas/",
+      "staff_roles": {
+        "1": "flute",
+        "2": "violin_1",
+        "3": "violin_2",
+        "4": "viola",
+        "5": "violoncello_e_basso",
+        "6": "cembalo_1_upper",
+        "7": "cembalo_1_lower",
+        "8": "cembalo_2_upper",
+        "9": "cembalo_2_lower"
       },
       "editorial_status": "combined",
       "review": null,

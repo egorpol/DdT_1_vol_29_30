@@ -33,6 +33,7 @@ def test_site_index_lists_every_work_and_copies_the_listed_files(tmp_path):
     assert {w['key'] for w in works if 'mei' in w} == {w['key'] for w in listed}
     assert all(w['status'] == 'pending' for w in works if 'mei' not in w)
     assert next(w for w in works if w['id'] == 'pisendel')['status'] == 'combined'
+    assert next(w for w in works if w['id'] == 'hasse')['status'] == 'combined'
     for work in works:
         if 'mei' in work:
             assert digest(out / work['mei']) == digest(ROOT / work['source'])
@@ -53,9 +54,10 @@ def test_build_refuses_to_empty_the_repository_or_its_folders(monkeypatch):
 
 def test_build_rejects_a_listed_work_it_does_not_know_or_whose_pages_differ(tmp_path, monkeypatch):
     m = module()
-    monkeypatch.setattr(m, 'WORKS', m.WORKS[1:])
+    works = list(m.WORKS)
+    monkeypatch.setattr(m, 'WORKS', works[1:])
     with pytest.raises(SystemExit, match='pisendel_violin_concerto'):
         m.build(tmp_path / 'a')
-    monkeypatch.setattr(m, 'WORKS', [{**m.WORKS[0], 'key': 'pisendel_violin_concerto', 'pages': {'from': '1', 'to': '31'}}])
+    monkeypatch.setattr(m, 'WORKS', [{**works[0], 'pages': {'from': '1', 'to': '31'}}] + works[1:])
     with pytest.raises(SystemExit, match='pages'):
         m.build(tmp_path / 'b')
