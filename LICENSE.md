@@ -1,7 +1,7 @@
 # Licenses
 
 - **MEI data and documentation** (`29_30_instrumentalkonzerte_deutscher_meister_bsb00023250/`, `29_30_instrumentalkonzerte_final/`, `docs/`, `README.md`, `CHANGELOG.md`, `CITATION.cff`): [Creative Commons Attribution 4.0 International](LICENSES/CC-BY-4.0.txt) (CC BY 4.0).
-- **Code** (`scripts/`, `site/`, `tests/`, `.github/`, none of which are present yet): [MIT License](LICENSES/MIT.txt).
+- **Code** (`scripts/`, `validation/`, `tests/`, `.github/`, `mei_corpus_checks.ipynb`, `mei_facsimile_viewer.ipynb`, `requirements.txt`, `pytest.ini`, and `site/` (not present yet)): [MIT License](LICENSES/MIT.txt).
 
 Third-party material is not covered by these licenses:
 

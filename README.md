@@ -59,7 +59,7 @@ Status terms are used as follows:
 
 The Proofreading column names who is correcting the page-level files for that work (or has done so). It does not by itself change the work-level status.
 
-Pisendel was assembled by Egor Polyakov on 2026-09-02 from the 32 page files (commit `dd634c6`): one `mdiv`, 480 measures, 32 facsimile surfaces with measure zones. Francy Häring corrected the page files (July–September 2026) and continued correcting in the combined file until 2026-10-07. Work-level correction is not complete; its consistency report currently has 206 rows. The file still carries the minimal OMR/transcoding header; the publication header is applied at finalization.
+Pisendel was assembled by Egor Polyakov on 2026-09-02 from the 32 page files (commit `dd634c6`): one `mdiv`, 480 measures, 32 facsimile surfaces with measure zones. Francy Häring corrected the page files (July–September 2026) and continued correcting in the combined file until 2026-10-07. Work-level correction is not complete; its consistency report, regenerated with CAMAT 0.2.7 on 2026-10-27, has 120 rows. The file still carries the minimal OMR/transcoding header; the publication header is applied at finalization.
 
 ## Repository contents
 
@@ -68,11 +68,44 @@ Pisendel was assembled by Egor Polyakov on 2026-09-02 from the 32 page files (co
 - [`docs/mei-encoding-profile.md`](docs/mei-encoding-profile.md) documents the publication header, facsimile conventions, and validation profile.
 - [`docs/editorial-workflow.md`](docs/editorial-workflow.md) records file naming, work-level statuses, and the correction sequence.
 - [`docs/editorial-policy.md`](docs/editorial-policy.md) defines source relationships, correction categories and responsibility.
+- [`validation/README.md`](validation/README.md) explains the checks, reports and release gate, and separates shared CAMAT checks from this edition's publication rules.
 - [`docs/templates/mei-header-template.xml`](docs/templates/mei-header-template.xml) is the reusable publication header skeleton.
 - [`schemas/mei-CMN-5.1.rng`](schemas/mei-CMN-5.1.rng) is the pinned MEI 5.1 CMN schema for offline validation.
+- [`scripts/`](scripts/), [`tests/`](tests/), [`mei_corpus_checks.ipynb`](mei_corpus_checks.ipynb) and [`mei_facsimile_viewer.ipynb`](mei_facsimile_viewer.ipynb) are the local validation and inspection tools (ported from DdT 1 vol. 11).
 - [`CHANGELOG.md`](CHANGELOG.md) records notable changes; [`CITATION.cff`](CITATION.cff) holds citation metadata.
 
-Validation tooling and a web viewer are planned (to be ported from the sibling DdT 1 vol. 11 edition) and are not yet in this repository.
+Validation tooling is present. A web viewer is still planned (to be ported from the sibling DdT 1 vol. 11 edition).
+
+## Check and inspect locally
+
+Use Python 3.11 or newer and the same environment for these commands and the notebooks. With a neighboring CAMAT checkout:
+
+```sh
+python scripts/update_camat.py --dry-run
+python scripts/update_camat.py
+python scripts/validate_corpus.py --mode review --verovio --camat-parse
+python scripts/refresh_editorial_reports.py
+```
+
+For a standalone clone without a neighboring CAMAT checkout,
+`python -m pip install -r requirements.txt` installs the tested versions
+(Python 3.12 or newer), including CAMAT 0.2.7 from PyPI; `python scripts/update_camat.py --git-ref v0.2.7`
+installs the same CAMAT from Git and records the resolved code. CAMAT 0.2.7's
+duration checks also cover measures marked `metcon="false"`, as future committed
+reports will; CAMAT 0.2.1–0.2.6 skip them.
+
+Install libxml2's `xmllint` separately. Open
+[`mei_corpus_checks.ipynb`](mei_corpus_checks.ipynb) for the same general + DdT
+checks and [`mei_facsimile_viewer.ipynb`](mei_facsimile_viewer.ipynb) for source
+inspection. Dependency updates are explicit, separate operations; validation
+records the actual CAMAT version/revision/source hashes.
+
+The publication work list selects Pisendel. A separate review-only
+[editorial work list](validation/editorial-works.json) covers the same assembled
+score for shared reports; publication candidates still require explicit review.
+Official IIIF Schematron warnings remain pending publication review. See
+[the tool guide](validation/README.md) for all options, reports, scope and
+release gates.
 
 ## Editorial approach
 
@@ -106,6 +139,6 @@ Cite this repository as a work in progress, and cite the underlying source editi
 
 ## License
 
-MEI data and documentation are released under [CC BY 4.0](LICENSES/CC-BY-4.0.txt); project-authored code (when present) under the [MIT License](LICENSES/MIT.txt). See [`LICENSE.md`](LICENSE.md) for the split and for third-party material. The unchanged official MEI schema retains its upstream Educational Community License 2.0 notice.
+MEI data and documentation are released under [CC BY 4.0](LICENSES/CC-BY-4.0.txt); project-authored code under the [MIT License](LICENSES/MIT.txt). See [`LICENSE.md`](LICENSE.md) for the split and for third-party material. The unchanged official MEI schema retains its upstream Educational Community License 2.0 notice.
 
 Third-party facsimile images are separate from the MEI-data license. The BSB digitization is offered under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The MEI files link to these images on the BSB IIIF server; this repository does not copy them.

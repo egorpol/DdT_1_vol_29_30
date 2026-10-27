@@ -60,7 +60,7 @@ For a release designed to expose selectable alternatives, encode the original an
 
 Retain DdT's score layout, including the cembalo staves as printed (for example Pisendel: "Cembalo I." and "Cembalo II."; C. P. E. Bach: "Cembalo concertato." and "Cembalo ripieno."). Do not remove those staves merely because an earlier partbook transmits continuo only. Treat DdT as the source of that layout without assigning realization authorship more specifically than the evidence supports.
 
-Per-work staff roles are declared when a work is combined. Store them in the release manifest or an equivalent declared mapping once validation tooling is present. Preserve source labels in the master when fidelity requires it; provide readable analytical names in the consumer/derived view.
+Per-work staff roles are declared when a work is combined. Store them in [`validation/works.json`](../validation/works.json) and [`validation/editorial-works.json`](../validation/editorial-works.json). Preserve source labels in the master when fidelity requires it; provide readable analytical names in the consumer/derived view.
 
 Specify the selected view with each analysis: for example, the encoded instrumental parts alone, or DdT's complete texture including the cembalo staves. A selection of staves is still derived from this corrected DdT edition; it is not automatically an independent diplomatic transcription of earlier partbooks.
 

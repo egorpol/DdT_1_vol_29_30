@@ -58,6 +58,6 @@ Update the work table in the main README when the work-level status changes. Pag
 
 ## Checks
 
-The `_consistency_report.csv` beside a combined file lists CAMAT's consistency findings and is regenerated after changes. The scripted refresh and validation gate used in the sibling DdT 1 vol. 11 edition are to be ported later. The pinned MEI 5.1 CMN schema at [`schemas/mei-CMN-5.1.rng`](../schemas/mei-CMN-5.1.rng) keeps validation reproducible and offline once tooling is present.
+The `_consistency_report.csv` beside a combined file lists CAMAT's consistency findings and is regenerated after changes with `python scripts/refresh_editorial_reports.py`. The review gate runs against [`validation/editorial-works.json`](../validation/editorial-works.json); see [`validation/README.md`](../validation/README.md). The pinned MEI 5.1 CMN schema at [`schemas/mei-CMN-5.1.rng`](../schemas/mei-CMN-5.1.rng) keeps validation reproducible and offline.
 
 An empty report means only that the implemented automated checks found no inconsistency. It cannot determine whether every pitch, rhythm, articulation, accidental, figured-bass symbol, or editorial reading agrees with the printed source.

@@ -1,0 +1,119 @@
+{
+  "format_version": 1,
+  "completed_utc": "2026-10-27T00:11:54.876844+00:00",
+  "purpose": "Shared editorial findings for all assembled works; not publication sign-off.",
+  "camat": {
+    "module_version": "0.2.7",
+    "distribution_version": "0.2.7",
+    "git_branch": null,
+    "git_commit": null,
+    "source_tree_sha256": "e15ceeced9241aa9bad0f90e437c2d0f732fa67e49a1086c37a2ea32cc5d51df",
+    "working_tree_dirty": false
+  },
+  "dependency_versions": {
+    "lxml": "6.1.2",
+    "Pillow": "12.3.0",
+    "saxonche": "13.0.0",
+    "verovio": "6.3.0",
+    "music21": "10.5.0",
+    "partitura": "1.9.0"
+  },
+  "schema": {
+    "file": "schemas/mei-CMN-5.1.rng",
+    "sha256": "f6440d5eb59c3e903f2a7a64ea26518646186f8449b86096106846a269eb354b"
+  },
+  "sources": {
+    "validation/editorial-works.json": "b1198416ff5f3d9b147d6f1b433d85dc2a66984852f0e65ff7a4f66723c84211",
+    "validation/profile.json": "a8c3cc2eabf17b00a4ebd04099880ee502f0c68f4604a1c6680e53871ea80b49",
+    "validation/rules.py": "2b6b60415461051b4bfe2cd0d4e91e164a29e0c5772bb9e5c31736a8dac5725b",
+    "scripts/validate_corpus.py": "d1cd1e0ebc8c7964fe13dd29c7ec43c0bc2f97f4b4ad050d136eac9231e8867f",
+    "scripts/refresh_editorial_reports.py": "cf1a9e884db1f9f25339ebd77b181b06b7203b1b8102d800f632b408e5feb031"
+  },
+  "options": {
+    "check_ppq": true,
+    "parsing_backend": "verovio",
+    "check_relaxng": true,
+    "check_schematron": true,
+    "check_resources": true,
+    "check_network": true,
+    "check_verovio": true,
+    "check_camat_parse": true,
+    "verovio_render_pages": true,
+    "editorial_diagnostics": true,
+    "group_diagnostics": true
+  },
+  "works": [
+    {
+      "work_key": "pisendel_violin_concerto",
+      "input_file": "29_30_instrumentalkonzerte_final/pisendel_violin_concerto_corr.mei",
+      "input_sha256": "dded0521b18ce60f1b778685d7c8056cc615799aac7436a08974015fe9707a21",
+      "report_file": "29_30_instrumentalkonzerte_final/pisendel_violin_concerto_corr_consistency_report.csv",
+      "report_sha256": "7cc1555028bc6f514363a727c87a546f2fb9b5ae41191dc1bb31dc9ae00a3cbd",
+      "completion_status": "completed",
+      "mei_conformance": "passed",
+      "consumer_diagnostics": "failed",
+      "ddt_publication_acceptance": "needs-review",
+      "input_unchanged": true,
+      "findings": {
+        "warning": 103,
+        "info": 17
+      },
+      "checks": {
+        "xml_references": {
+          "requested": true,
+          "required": true,
+          "status": "passed",
+          "findings_count": 0
+        },
+        "musical_diagnostics": {
+          "requested": true,
+          "required": false,
+          "status": "passed",
+          "findings_count": 52
+        },
+        "relaxng": {
+          "requested": true,
+          "required": true,
+          "status": "passed",
+          "findings_count": 0
+        },
+        "schematron": {
+          "requested": true,
+          "required": true,
+          "status": "passed",
+          "findings_count": 32
+        },
+        "resources": {
+          "requested": true,
+          "required": true,
+          "status": "passed",
+          "findings_count": 0
+        },
+        "image_network": {
+          "requested": true,
+          "required": false,
+          "status": "passed",
+          "findings_count": 0
+        },
+        "verovio": {
+          "requested": true,
+          "required": false,
+          "status": "failed",
+          "findings_count": 19
+        },
+        "camat_parse": {
+          "requested": true,
+          "required": false,
+          "status": "passed",
+          "findings_count": 0
+        },
+        "input_hashes": {
+          "requested": true,
+          "required": true,
+          "status": "passed",
+          "findings_count": 0
+        }
+      }
+    }
+  ]
+}
