@@ -2,7 +2,7 @@
 
 This document records the technical publication profile for the complete work-level MEI files in this repository. It is intended for editors, maintainers, and validators; the main README remains a public overview of the corpus.
 
-A reusable skeleton is available as [`templates/mei-header-template.xml`](templates/mei-header-template.xml). The current Pisendel working file still carries the minimal OMR/transcoding header; the publication profile is applied at finalization.
+A reusable skeleton is available as [`templates/mei-header-template.xml`](templates/mei-header-template.xml). The Pisendel working file has carried the publication header since 2026-10-27; release fields (edition number, release date, versioned URI) are set at finalization.
 
 ## Schema profile
 
@@ -16,7 +16,7 @@ Publication files use the official MEI 5.1 Common Music Notation customization:
 
 The XML model declarations and `mei/@meiversion` must identify the same MEI release and customization. The repository includes a pinned copy at [`schemas/mei-CMN-5.1.rng`](../schemas/mei-CMN-5.1.rng) for reproducible and offline validation. It is reference and validation infrastructure rather than edition content embedded in an MEI file.
 
-Current working files still declare `mei-all`. That is fine until finalization, when the publication schema declarations above replace them.
+A working file may declare `mei-all` until its publication header is applied, when the publication schema declarations above replace it; the Pisendel file declares them.
 
 ## Header model
 

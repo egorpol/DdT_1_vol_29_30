@@ -23,8 +23,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE_FILES = ["index.html", "viewer.css", "viewer.js"]
 WORK_LIST = "validation/editorial-works.json"
 # The volume's works in printed order, as in the README's work table. The
-# titles stand in for the MEI title, which is the printed heading ("Concerto.")
-# until the publication header is applied at finalization.
+# titles stand in for the MEI title, which stays the printed heading ("Concerto.")
+# until a work's publication header is applied.
 WORKS = [
     {"key": "pisendel_violin_concerto", "id": "pisendel", "label": "Pisendel",
      "composer": "Johann Georg Pisendel",

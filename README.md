@@ -9,7 +9,7 @@ The edition began with page-level optical music recognition (OMR) data from [mus
 |                     |                                                              |
 | ------------------- | ------------------------------------------------------------ |
 | Contents            | Seven concertos by seven composers                           |
-| Encoding            | MEI 5.1; work files target the Common Music Notation customization at finalization |
+| Encoding            | MEI 5.1; work files move to the Common Music Notation customization with their publication header (Pisendel since 2026-10-27) |
 | Editorial unit      | One MEI file per complete work                               |
 | Facsimile alignment | IIIF-linked surfaces with measure-level zones                |
 | Current state       | Pisendel combined; page-level proofreading under way for Hasse and C. P. E. Bach; the others pending |
@@ -58,8 +58,6 @@ Status terms are used as follows:
 - `finalized`: metadata, editorial review, validation, and publication naming are complete.
 
 The Proofreading column names who is correcting the page-level files for that work (or has done so). It does not by itself change the work-level status.
-
-Pisendel was assembled by Egor Polyakov on 2026-09-02 from the 32 page files (commit `dd634c6`): one `mdiv`, 480 measures, 32 facsimile surfaces with measure zones. Francy Häring corrected the page files (July–September 2026) and continued correcting in the combined file until 2026-10-07. Work-level correction is not complete; its consistency report, regenerated with CAMAT 0.2.7 on 2026-10-27, has 120 rows. The file still carries the minimal OMR/transcoding header; the publication header is applied at finalization.
 
 ## Repository contents
 
@@ -114,15 +112,15 @@ The MEI 5.1 CMN publication profile is the target for finalizing work-level file
 
 ## Contributors
 
-When a work is finalized, its MEI header records these responsibilities in `titleStmt/respStmt`. MEI encoding and work-level assembly: CAMAT.
+A work's publication header records these responsibilities in `titleStmt/respStmt` (Pisendel's since 2026-10-27). MEI encoding and work-level assembly: CAMAT.
 
-| Contributor    | Page-level OMR correction                         | Work-level correction                          |
-| -------------- | ------------------------------------------------- | ---------------------------------------------- |
-| Lea Meret Beck | C. P. E. Bach (in progress)                       | —                                              |
-| Francy Häring  | Pisendel                                          | Pisendel (through 2026-10-07)                  |
-| Egor Polyakov  | pages 2, 3, 22 (Dorico re-encoding)               | Pisendel assembly                              |
-| Jingyu Tu      | Hasse (in progress)                               | —                                              |
-| You Zhou       | Graupner (p. 196 so far)                          | —                                              |
+| Contributor    | Page-level OMR correction           | Work-level correction                                                 |
+| -------------- | ----------------------------------- | --------------------------------------------------------------------- |
+| Lea Meret Beck | C. P. E. Bach (in progress)         | —                                                                     |
+| Francy Häring  | Pisendel                            | Pisendel (through 2026-10-07)                                         |
+| Egor Polyakov  | pages 2, 3, 22 (Dorico re-encoding) | Work-level assembly of all works (Pisendel so far); Pisendel metadata |
+| Jingyu Tu      | Hasse (in progress)                 | —                                                                     |
+| You Zhou       | Graupner (in progress)              | —                                                                     |
 
 ## Funding
 
