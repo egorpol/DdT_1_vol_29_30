@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instrumentalkonzerte deutscher Meister</title>
+  <meta name="description" content="Seven concertos after Denkmäler deutscher Tonkunst, first series, vols. 29/30 (1907): MEI edition rendered with Verovio beside the Bayerische Staatsbibliothek facsimile.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="viewer.css">
+  <script type="module" src="viewer.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <h1><i>Instrumentalkonzerte deutscher Meister</i></h1>
+    <p>MEI edition after Denkmäler deutscher Tonkunst, first series, vols. 29/30 (ed. Arnold Schering, 1907)<span id="edition"></span> · <a href="https://github.com/egorpol/DdT_1_vol_29_30">Source files on GitHub</a></p>
+  </header>
+
+  <nav class="toolbar" aria-label="Score navigation">
+    <label class="work-select">
+      <span class="visually-hidden">Work</span>
+      <select id="work" disabled><option>Loading…</option></select>
+    </label>
+    <div class="pager">
+      <button type="button" id="prev" aria-label="Previous page">‹</button>
+      <span id="page-label">–</span>
+      <button type="button" id="next" aria-label="Next page">›</button>
+    </div>
+    <fieldset class="settings">
+      <legend class="visually-hidden">Display</legend>
+      <label><input type="checkbox" id="mark-notes"> Mark all notes</label>
+      <label><input type="checkbox" id="measure-boxes"> Measure boxes</label>
+    </fieldset>
+    <output id="status" aria-live="polite">Hover a measure or a symbol to see its measure number and xml:id.</output>
+  </nav>
+
+  <section class="work-info" aria-label="Work">
+    <h2 id="work-title">–</h2>
+    <p id="work-meta"></p>
+  </section>
+
+  <main class="panes">
+    <section class="pane" aria-label="Score">
+      <div id="score" class="paper score"><p class="message">Loading Verovio…</p></div>
+      <section class="notes" aria-labelledby="notes-heading">
+        <h2 id="notes-heading">Editorial notes</h2>
+        <ol id="annots"></ol>
+      </section>
+    </section>
+
+    <section class="pane facs" id="facs" aria-label="Facsimile">
+      <div class="paper facs-page">
+        <img id="facs-image" alt="">
+        <svg id="zones" class="zones" preserveAspectRatio="none" aria-hidden="true"></svg>
+      </div>
+      <p class="facs-meta"><span id="facs-label"></span> <a id="facs-full" href="#" target="_blank" rel="noopener">Full-size image</a></p>
+      <p class="facs-credit">Facsimile: <a href="https://www.digitale-sammlungen.de/en/view/bsb00023250">Bayerische Staatsbibliothek, bsb00023250</a>, <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>, loaded from the BSB IIIF server.</p>
+      <p id="facs-error" class="error" hidden></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>MEI data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Viewer code: MIT (<a href="https://github.com/egorpol/DdT_1_vol_29_30/blob/main/LICENSE.md">licenses</a>). Facsimile pages: Bayerische Staatsbibliothek, CC BY-NC-SA 4.0. Rendered in your browser with <a href="https://www.verovio.org/">Verovio</a> <span id="verovio-version"></span>. Links: <code>#pisendel/37</code> opens Pisendel at measure 37; arrow keys turn pages.</p>
+  </footer>
+</body>
+</html>
