@@ -3,167 +3,167 @@
 <?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1+CMN">
    <meiHead xml:lang="en">
-      <altId type="repository-stem">pisendel_violin_concerto</altId>
-      <fileDesc>
-         <titleStmt>
-            <title>Konzert für Violine und Streichorchester</title>
-            <composer>
-               <persName auth="GND" auth.uri="https://d-nb.info/gnd/11946912X" codedval="11946912X">Johann Georg Pisendel</persName>
-            </composer>
-            <respStmt xml:id="resp.camat">
-               <resp>MEI encoding and work-level assembly</resp>
-               <corpName>CAMAT</corpName>
-            </respStmt>
-            <respStmt xml:id="resp.haering">
-               <resp>OMR correction</resp>
-               <persName>Francy Häring</persName>
-            </respStmt>
-            <respStmt xml:id="resp.polyakov">
-               <resp>Re-encoding of printed pp. 2, 3 and 22, work-level assembly and metadata</resp>
-               <persName>Egor Polyakov</persName>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition>Working digital edition</edition>
-         </editionStmt>
-         <pubStmt>
-            <publisher>CAMAT Corpus Editions</publisher>
-            <date isodate="2019-02-12" type="encoding-date">2019-02-12</date>
-            <date isodate="2026-10-27" type="last-updated">2026-10-27</date>
-            <identifier type="URI">https://github.com/egorpol/DdT_1_vol_29_30/blob/main/29_30_instrumentalkonzerte_final/pisendel_violin_concerto_corr.mei</identifier>
-            <availability>
-               <useRestrict>MEI data released under <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</ref>.</useRestrict>
-            </availability>
-         </pubStmt>
-         <sourceDesc>
-            <source xml:id="src.ddt1907" type="printed-edition">
-               <bibl>
-                  <title>Instrumentalkonzerte deutscher Meister</title>
-                  <title type="series">Denkmäler deutscher Tonkunst, first series, vols. 29/30</title>
-                  <composer>Johann Georg Pisendel</composer>
-                  <editor>
-                     <persName auth="GND" auth.uri="https://d-nb.info/gnd/118754688" codedval="118754688">Arnold Schering</persName>
-                  </editor>
-                  <imprint>
-                     <pubPlace>Leipzig</pubPlace>
-                     <publisher>Breitkopf &amp; Härtel</publisher>
-                     <date isodate="1907">1907</date>
-                  </imprint>
-                  <identifier type="URN">urn:nbn:de:bvb:12-bsb00023250-6</identifier>
-                  <identifier type="BSB-ID">991077497029707356</identifier>
-                  <identifier type="BV">BV007816573</identifier>
-                  <identifier type="OCLC">68616423</identifier>
-                  <physLoc>
-                     <repository>Bayerische Staatsbibliothek, München</repository>
-                     <identifier type="shelfmark">2 Mus.pr. 3951-29/30</identifier>
-                  </physLoc>
-                  <ref type="digital-facsimile" target="https://www.digitale-sammlungen.de/en/view/bsb00023250">BSB digital facsimile</ref>
-                  <ref type="iiif-manifest" target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00023250/manifest">IIIF Presentation manifest</ref>
-                  <biblScope unit="page" from="1" to="32">pp. 1–32</biblScope>
-                  <availability>
-                     <useRestrict>Digital facsimile supplied by the Bayerische Staatsbibliothek under <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>.</useRestrict>
-                  </availability>
-               </bibl>
-            </source>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <appInfo>
-            <application>
-               <name>musiconn.scoresearch</name>
-               <p>Source OMR data.</p>
-            </application>
-            <application isodate="2025-08-29T17:35:09" version="5.5.0-e003172">
-               <name>Verovio</name>
-               <p>Transcoded the OMR data from MusicXML to MEI for BSB images 00031, 00034-00051 and 00053-00062; the date is the one recorded for 00031.</p>
-            </application>
-            <application startdate="2026-09-01T16:16:10" enddate="2026-09-01T20:17:22" version="6.3.0-425dd7b">
-               <name>Verovio</name>
-               <p>Transcoded the Dorico re-encodings of BSB images 00032, 00033 and 00052 from MusicXML to MEI.</p>
-            </application>
-            <application startdate="2026-07-01T16:56:58" enddate="2026-10-07T21:06:33" version="1.4.2">
-               <name>mei-friend</name>
-               <p>Manual correction of the page files and the combined file. The start is the earliest recorded in the page files for BSB images 00031-00062, the end the latest recorded in the combined file; the version is the latest recorded (1.3.0 in 00034, 1.4.2 in the others).</p>
-            </application>
-         </appInfo>
-         <editorialDecl>
-            <p>This is a working digital edition based on DdT 1907, assembled on 2026-09-02 from the page-level encodings of BSB images 00031-00062 (printed pp. 1-32) at repository revision dd634c6. OMR and conversion errors are corrected against the DdT facsimile. Francy Häring corrected the page files and continued correcting the combined file until 2026-10-07; Egor Polyakov re-encoded printed pp. 2, 3 and 22 in Dorico on 2026-09-01, and Francy Häring then corrected those pages as well. Work-level correction is not complete. No other witness has been consulted. Substantive departures from DdT are documented in editorial annotations recording the source reading, encoded reading, evidence or conjectural reasoning, and responsible editor.</p>
-            <p>The staff arrangement printed in DdT is retained: staves 1 and 2 are the oboes (Oboi), staff 3 the solo violin (Violino concertato), staves 4 and 5 Violino I and II, staff 6 Viola, staff 7 Bassi e Fagotti, and staves 8-9 and 10-11 the upper and lower staves of Cembalo I and Cembalo II. The cembalo staves as printed in DdT are retained as part of that edition. Who realized the figured bass in those staves is not established. They must be selected explicitly when defining an analytical view.</p>
-            <p>Original page and system boundaries are represented by pb and sb elements. Surface and page-break numbers form a work-local sequence beginning with 1; the printed page range is recorded in sourceDesc. Each measure points to a measure zone on the corresponding facsimile surface using @facs. The 480 measures are numbered continuously across the 32 surfaces.</p>
-            <p>Editorial decisions that interpret or depart from the print are recorded as editorial annotations (annot type="editorial" with a CAMAT label) that point to the affected events. In particular, printed groups of three 32nd notes that fill an eighth in the 3/8 measures are encoded with hidden 3:4 tuplets (annotation editorial.pisendel.three-32nd-groups).</p>
-         </editorialDecl>
-         <projectDesc>
-            <p>This edition was prepared by CAMAT Corpus Editions as part of a DFG-funded corpus for music-analysis technologies (grant PF 669/18-1).</p>
-         </projectDesc>
-      </encodingDesc>
-      <workList>
-         <work xml:id="work.pisendel_violin_concerto">
-            <title>Konzert für Violine und Streichorchester</title>
-            <composer>
-               <persName auth="GND" auth.uri="https://d-nb.info/gnd/11946912X" codedval="11946912X">Johann Georg Pisendel</persName>
-            </composer>
-            <key pname="d" mode="major">D major</key>
-            <perfMedium>
-               <perfResList>
-                  <perfRes count="2">Oboe</perfRes>
-                  <perfRes solo="true">Violin</perfRes>
-                  <perfRes>Violin I</perfRes>
-                  <perfRes>Violin II</perfRes>
-                  <perfRes>Viola</perfRes>
-                  <perfRes>Basses and bassoons</perfRes>
-                  <perfRes count="2">Harpsichord</perfRes>
-               </perfResList>
-            </perfMedium>
-         </work>
-      </workList>
-      <revisionDesc>
-         <change isodate="2026-10-27" resp="#resp.camat #resp.polyakov">
-            <changeDesc>
-               <p>Removed metcon="false" from the 33 measures that still carried it, inherited from the page files: every layer of each measure fills its meter and each measure contains every declared staff, so the CAMAT consistency check reports the same findings with and without the flags.</p>
-            </changeDesc>
-         </change>
-         <change isodate="2026-10-27" resp="#resp.camat #resp.polyakov">
-            <changeDesc>
-               <p>Resolved the rhythm and staff warnings of the CAMAT consistency check against the DdT facsimile. The 35 warnings were compared with the DdT page images by an AI model (OpenAI Codex); the editor spot-checked its readings in the page images and the MEI and approved the changes. Removed five spurious spacers after complete printed measures (mm. 71, 83, 181, 208, 216); added numbase="2" to the printed triplets jesnwe (m. 92) and jwemer (m. 94); added the printed eighth rest after the quarter chord in m. 383, staff 10; renumbered the staff placeholder tyvxcd23 in m. 242 from 2 to 9 and added placeholders for the unprinted staves 8-9 (mm. 398-399) and 2 (m. 400); moved slur sxzterk2 (m. 376) from staff 1 to staff 3, where it is printed; gave the directions Fagotti soli (m. 16) and Tutti. (m. 20) xml:ids. Enclosed the 61 printed groups of three 32nd notes, and in m. 253 the subsidiary voice that shares their noteheads, in hidden 3:4 tuplets (annotation editorial.pisendel.three-32nd-groups), and removed metcon="false" from the eight corrected measures that now fill their meter (mm. 71, 83, 181, 208, 216, 218, 253, 383). The remaining underfull layer (m. 230, staff 8) is a subsidiary voice printed as such.</p>
-            </changeDesc>
-         </change>
-         <change isodate="2026-10-27" resp="#resp.camat #resp.polyakov">
-            <changeDesc>
-               <p>Applied the MEI 5.1 CMN publication profile: replaced the minimal OMR/transcoding header with the edition header (work title, GND-linked composer, responsibilities, CC BY 4.0 data licence, DdT 1907 source with its BSB identifiers and printed pp. 1-32, application history, editorial declaration and principal work), linked the mdiv to the work and changed the schema declarations to mei-CMN with meiversion 5.1+CMN. No edition number is set until a release includes this work. The musical text, facsimile zones and event IDs are unchanged.</p>
-            </changeDesc>
-         </change>
-         <change isodate="2026-10-27" resp="#resp.camat">
-            <changeDesc>
-               <p>Corrected the staff 3 label jdfg345 from Violino conertato. to the printed Violino concertato. (p. 1). Its ID and all other music are retained.</p>
-            </changeDesc>
-         </change>
-         <change isodate="2026-10-27" resp="#resp.camat">
-            <changeDesc>
-               <p>At measure 37 (printed p. 4), where DdT returns from the common-time Andante (mm. 27-36) to the Vivace in 3/4, added the missing 3/4 meter to the scoreDef; mm. 37-173 had been read as 4/4. Notes, rests and event IDs are unchanged.</p>
-            </changeDesc>
-         </change>
-         <change isodate="2026-10-07" resp="#resp.haering">
-            <changeDesc>
-               <p>Corrected the combined file against the DdT facsimile from 2026-09-03 to 2026-10-07 (289 commits). Work-level correction is not complete.</p>
-            </changeDesc>
-         </change>
-         <change isodate="2026-09-03" resp="#resp.polyakov">
-            <changeDesc>
-               <p>Carried 16 page-opening score definitions from the page files into the combined file, with page-qualified IDs (pg33_ to pg61_).</p>
-            </changeDesc>
-         </change>
-         <change isodate="2026-09-02" resp="#resp.polyakov #resp.camat">
-            <changeDesc>
-               <p>Combined the page-level files for BSB images 00031-00062 into work-level MEI: one mdiv, 480 measures and 32 facsimile surfaces with measure zones (repository revision dd634c6).</p>
-            </changeDesc>
-         </change>
-         <change isodate="2026-09-02" resp="#resp.haering #resp.polyakov">
-            <changeDesc>
-               <p>Page-level OMR correction against the DdT facsimile: Francy Häring corrected the page files for BSB images 00031-00062 in mei-friend from 2026-07-01 to 2026-09-02 (763 commits); Egor Polyakov re-encoded printed pp. 2, 3 and 22 in Dorico on 2026-09-01.</p>
-            </changeDesc>
-         </change>
-      </revisionDesc>
-   </meiHead>
+<altId type="repository-stem">pisendel_violin_concerto</altId>
+<fileDesc>
+<titleStmt>
+<title>Konzert für Violine und Streichorchester</title>
+<composer>
+<persName auth="GND" auth.uri="https://d-nb.info/gnd/11946912X" codedval="11946912X">Johann Georg Pisendel</persName>
+</composer>
+<respStmt xml:id="resp.camat">
+<resp>MEI encoding and work-level assembly</resp>
+<corpName>CAMAT</corpName>
+</respStmt>
+<respStmt xml:id="resp.haering">
+<resp>OMR correction</resp>
+<persName>Francy Häring</persName>
+</respStmt>
+<respStmt xml:id="resp.polyakov">
+<resp>Re-encoding of printed pp. 2, 3 and 22, work-level assembly and metadata</resp>
+<persName>Egor Polyakov</persName>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>Working digital edition</edition>
+</editionStmt>
+<pubStmt>
+<publisher>CAMAT Corpus Editions</publisher>
+<date isodate="2019-02-12" type="encoding-date">2019-02-12</date>
+<date isodate="2026-10-27" type="last-updated">2026-10-27</date>
+<identifier type="URI">https://github.com/egorpol/DdT_1_vol_29_30/blob/main/29_30_instrumentalkonzerte_final/pisendel_violin_concerto_corr.mei</identifier>
+<availability>
+<useRestrict>MEI data released under <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</ref>.</useRestrict>
+</availability>
+</pubStmt>
+<sourceDesc>
+<source xml:id="src.ddt1907" type="printed-edition">
+<bibl>
+<title>Instrumentalkonzerte deutscher Meister</title>
+<title type="series">Denkmäler deutscher Tonkunst, first series, vols. 29/30</title>
+<composer>Johann Georg Pisendel</composer>
+<editor>
+<persName auth="GND" auth.uri="https://d-nb.info/gnd/118754688" codedval="118754688">Arnold Schering</persName>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Breitkopf &amp; Härtel</publisher>
+<date isodate="1907">1907</date>
+</imprint>
+<identifier type="URN">urn:nbn:de:bvb:12-bsb00023250-6</identifier>
+<identifier type="BSB-ID">991077497029707356</identifier>
+<identifier type="BV">BV007816573</identifier>
+<identifier type="OCLC">68616423</identifier>
+<physLoc>
+<repository>Bayerische Staatsbibliothek, München</repository>
+<identifier type="shelfmark">2 Mus.pr. 3951-29/30</identifier>
+</physLoc>
+<ref type="digital-facsimile" target="https://www.digitale-sammlungen.de/en/view/bsb00023250">BSB digital facsimile</ref>
+<ref type="iiif-manifest" target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00023250/manifest">IIIF Presentation manifest</ref>
+<biblScope unit="page" from="1" to="32">pp. 1–32</biblScope>
+<availability>
+<useRestrict>Digital facsimile supplied by the Bayerische Staatsbibliothek under <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>.</useRestrict>
+</availability>
+</bibl>
+</source>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application>
+<name>musiconn.scoresearch</name>
+<p>Source OMR data.</p>
+</application>
+<application isodate="2025-08-29T17:35:09" version="5.5.0-e003172">
+<name>Verovio</name>
+<p>Transcoded the OMR data from MusicXML to MEI for BSB images 00031, 00034-00051 and 00053-00062; the date is the one recorded for 00031.</p>
+</application>
+<application startdate="2026-09-01T16:16:10" enddate="2026-09-01T20:17:22" version="6.3.0-425dd7b">
+<name>Verovio</name>
+<p>Transcoded the Dorico re-encodings of BSB images 00032, 00033 and 00052 from MusicXML to MEI.</p>
+</application>
+<application startdate="2026-07-01T16:56:58" enddate="2026-10-28T13:28:36" version="1.4.2">
+<name>mei-friend</name>
+<p>Manual correction of the page files and the combined file. The start is the earliest recorded in the page files for BSB images 00031-00062, the end the latest recorded in the combined file; the version is the latest recorded (1.3.0 in 00034, 1.4.2 in the others).</p>
+</application>
+</appInfo>
+<editorialDecl>
+<p>This is a working digital edition based on DdT 1907, assembled on 2026-09-02 from the page-level encodings of BSB images 00031-00062 (printed pp. 1-32) at repository revision dd634c6. OMR and conversion errors are corrected against the DdT facsimile. Francy Häring corrected the page files and continued correcting the combined file until 2026-10-07; Egor Polyakov re-encoded printed pp. 2, 3 and 22 in Dorico on 2026-09-01, and Francy Häring then corrected those pages as well. Work-level correction is not complete. No other witness has been consulted. Substantive departures from DdT are documented in editorial annotations recording the source reading, encoded reading, evidence or conjectural reasoning, and responsible editor.</p>
+<p>The staff arrangement printed in DdT is retained: staves 1 and 2 are the oboes (Oboi), staff 3 the solo violin (Violino concertato), staves 4 and 5 Violino I and II, staff 6 Viola, staff 7 Bassi e Fagotti, and staves 8-9 and 10-11 the upper and lower staves of Cembalo I and Cembalo II. The cembalo staves as printed in DdT are retained as part of that edition. Who realized the figured bass in those staves is not established. They must be selected explicitly when defining an analytical view.</p>
+<p>Original page and system boundaries are represented by pb and sb elements. Surface and page-break numbers form a work-local sequence beginning with 1; the printed page range is recorded in sourceDesc. Each measure points to a measure zone on the corresponding facsimile surface using @facs. The 480 measures are numbered continuously across the 32 surfaces.</p>
+<p>Editorial decisions that interpret or depart from the print are recorded as editorial annotations (annot type="editorial" with a CAMAT label) that point to the affected events. In particular, printed groups of three 32nd notes that fill an eighth in the 3/8 measures are encoded with hidden 3:4 tuplets (annotation editorial.pisendel.three-32nd-groups).</p>
+</editorialDecl>
+<projectDesc>
+<p>This edition was prepared by CAMAT Corpus Editions as part of a DFG-funded corpus for music-analysis technologies (grant PF 669/18-1).</p>
+</projectDesc>
+</encodingDesc>
+<workList>
+<work xml:id="work.pisendel_violin_concerto">
+<title>Konzert für Violine und Streichorchester</title>
+<composer>
+<persName auth="GND" auth.uri="https://d-nb.info/gnd/11946912X" codedval="11946912X">Johann Georg Pisendel</persName>
+</composer>
+<key pname="d" mode="major">D major</key>
+<perfMedium>
+<perfResList>
+<perfRes count="2">Oboe</perfRes>
+<perfRes solo="true">Violin</perfRes>
+<perfRes>Violin I</perfRes>
+<perfRes>Violin II</perfRes>
+<perfRes>Viola</perfRes>
+<perfRes>Basses and bassoons</perfRes>
+<perfRes count="2">Harpsichord</perfRes>
+</perfResList>
+</perfMedium>
+</work>
+</workList>
+<revisionDesc>
+<change isodate="2026-10-27" resp="#resp.camat #resp.polyakov">
+<changeDesc>
+<p>Removed metcon="false" from the 33 measures that still carried it, inherited from the page files: every layer of each measure fills its meter and each measure contains every declared staff, so the CAMAT consistency check reports the same findings with and without the flags.</p>
+</changeDesc>
+</change>
+<change isodate="2026-10-27" resp="#resp.camat #resp.polyakov">
+<changeDesc>
+<p>Resolved the rhythm and staff warnings of the CAMAT consistency check against the DdT facsimile. The 35 warnings were compared with the DdT page images by an AI model (OpenAI Codex); the editor spot-checked its readings in the page images and the MEI and approved the changes. Removed five spurious spacers after complete printed measures (mm. 71, 83, 181, 208, 216); added numbase="2" to the printed triplets jesnwe (m. 92) and jwemer (m. 94); added the printed eighth rest after the quarter chord in m. 383, staff 10; renumbered the staff placeholder tyvxcd23 in m. 242 from 2 to 9 and added placeholders for the unprinted staves 8-9 (mm. 398-399) and 2 (m. 400); moved slur sxzterk2 (m. 376) from staff 1 to staff 3, where it is printed; gave the directions Fagotti soli (m. 16) and Tutti. (m. 20) xml:ids. Enclosed the 61 printed groups of three 32nd notes, and in m. 253 the subsidiary voice that shares their noteheads, in hidden 3:4 tuplets (annotation editorial.pisendel.three-32nd-groups), and removed metcon="false" from the eight corrected measures that now fill their meter (mm. 71, 83, 181, 208, 216, 218, 253, 383). The remaining underfull layer (m. 230, staff 8) is a subsidiary voice printed as such.</p>
+</changeDesc>
+</change>
+<change isodate="2026-10-27" resp="#resp.camat #resp.polyakov">
+<changeDesc>
+<p>Applied the MEI 5.1 CMN publication profile: replaced the minimal OMR/transcoding header with the edition header (work title, GND-linked composer, responsibilities, CC BY 4.0 data licence, DdT 1907 source with its BSB identifiers and printed pp. 1-32, application history, editorial declaration and principal work), linked the mdiv to the work and changed the schema declarations to mei-CMN with meiversion 5.1+CMN. No edition number is set until a release includes this work. The musical text, facsimile zones and event IDs are unchanged.</p>
+</changeDesc>
+</change>
+<change isodate="2026-10-27" resp="#resp.camat">
+<changeDesc>
+<p>Corrected the staff 3 label jdfg345 from Violino conertato. to the printed Violino concertato. (p. 1). Its ID and all other music are retained.</p>
+</changeDesc>
+</change>
+<change isodate="2026-10-27" resp="#resp.camat">
+<changeDesc>
+<p>At measure 37 (printed p. 4), where DdT returns from the common-time Andante (mm. 27-36) to the Vivace in 3/4, added the missing 3/4 meter to the scoreDef; mm. 37-173 had been read as 4/4. Notes, rests and event IDs are unchanged.</p>
+</changeDesc>
+</change>
+<change isodate="2026-10-07" resp="#resp.haering">
+<changeDesc>
+<p>Corrected the combined file against the DdT facsimile from 2026-09-03 to 2026-10-07 (289 commits). Work-level correction is not complete.</p>
+</changeDesc>
+</change>
+<change isodate="2026-09-03" resp="#resp.polyakov">
+<changeDesc>
+<p>Carried 16 page-opening score definitions from the page files into the combined file, with page-qualified IDs (pg33_ to pg61_).</p>
+</changeDesc>
+</change>
+<change isodate="2026-09-02" resp="#resp.polyakov #resp.camat">
+<changeDesc>
+<p>Combined the page-level files for BSB images 00031-00062 into work-level MEI: one mdiv, 480 measures and 32 facsimile surfaces with measure zones (repository revision dd634c6).</p>
+</changeDesc>
+</change>
+<change isodate="2026-09-02" resp="#resp.haering #resp.polyakov">
+<changeDesc>
+<p>Page-level OMR correction against the DdT facsimile: Francy Häring corrected the page files for BSB images 00031-00062 in mei-friend from 2026-07-01 to 2026-09-02 (763 commits); Egor Polyakov re-encoded printed pp. 2, 3 and 22 in Dorico on 2026-09-01.</p>
+</changeDesc>
+</change>
+</revisionDesc>
+</meiHead>
    <music>
       <facsimile>
          <surface xml:id="surface_4b1ee80ebe92" n="1" corresp="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00023250/canvas/31" ulx="0" uly="0" lrx="4133" lry="5826">
@@ -26829,7 +26829,6 @@
                      </staff>
                      <tie xml:id="r1p6chwu" startid="#qitsm97" endid="#e1tbqqo1" />
                      <tie xml:id="w1k45a4b" startid="#v1d89v6o" endid="#plebjff" />
-                     <tie xml:id="t63t0cs2" endid="#h13p7etof" staff="8" startid="#h13p7tof" />
                   </measure>
                   <measure xml:id="v17uymxw" n="215" facs="#zone_d33cc147660e4ef795">
                      <staff xml:id="e1soovv" n="1">
@@ -26939,6 +26938,7 @@
                            </beam>
                         </layer>
                      </staff>
+                     <tie xml:id="t58a06u2" endid="#h13p7etof" staff="8" startid="#h13p7tof"/>
                   </measure>
                   <measure xml:id="i1laxv09" n="216" facs="#zone_49d56ac8d0eb41859a">
                      <staff xml:id="r360k7d" n="1">
@@ -52671,7 +52671,14 @@
                         </layer>
                      </staff>
                      <staff xml:id="s1qzvas2" n="8">
-                        <layer xml:id="u1240lzx" n="1">
+                        <layer xml:id="kewmj" n="1">
+                           <chord xml:id="bsb00023250_00062_facs_zones_mjwe" dur="8" stem.dir="up">
+                              <note xml:id="mjwer" oct="4" pname="g" tie="t" />
+                              <note xml:id="mewj4" oct="4" pname="a" />
+                           </chord>
+                           <space xml:id="mwjn45" dur="4" />
+                        </layer>
+                        <layer xml:id="u1240lzx" n="2">
                            <beam xml:id="vg61h5a">
                               <note xml:id="wfurfzs" dur="8" oct="4" pname="c" stem.dir="down" />
                               <note xml:id="yt5v007" dur="16" oct="4" pname="d" stem.dir="down" />
@@ -52680,13 +52687,7 @@
                               <note xml:id="c1m7k8nz" dur="16" oct="4" pname="g" stem.dir="down" />
                            </beam>
                         </layer>
-                        <layer xml:id="kewmj" n="2">
-                           <chord xml:id="bsb00023250_00062_facs_zones_mjwe" dur="8" stem.dir="up">
-                              <note xml:id="mjwer" oct="4" pname="g" tie="t" />
-                              <note xml:id="mewj4" oct="4" pname="a" />
-                           </chord>
-                           <space xml:id="mwjn45" dur="4" />
-                        </layer>
+
                      </staff>
                      <staff xml:id="tzi0w7a" n="9">
                         <layer xml:id="e13xzpf1" n="1">
