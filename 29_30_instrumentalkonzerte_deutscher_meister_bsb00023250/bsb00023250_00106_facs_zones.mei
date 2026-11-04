@@ -18,7 +18,7 @@
                <name xml:id="n1pnoeav">Verovio</name>
                <p xml:id="pqkozf4">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="am2lmo01" startdate="2026-11-04T16:49:16" version="1.4.2" enddate="2026-11-04T17:22:43">
+            <application xml:id="am2lmo01" startdate="2026-11-04T16:49:16" version="1.4.2" enddate="2026-11-04T17:32:23">
                <name xml:id="n7jh9m61">mei-friend</name>
                <p xml:id="phn02e11">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -547,33 +547,34 @@
                   <measure xml:id="jdkems5" n="8" facs="#zone_f6c39efb4366450a82">
                      <staff xml:id="s119t22s" n="1">
                         <layer xml:id="vtmka6h" n="1">
-                           <mSpace xml:id="xdhlysw" />
+                           <mRest xml:id="xdhlysw" />
                         </layer>
                      </staff>
                      <staff xml:id="tpmrkm3" n="2">
                         <layer xml:id="yw00hbl" n="5">
-                           <mSpace xml:id="aahbbfi" />
+                           <mRest xml:id="aahbbfi" />
                         </layer>
                      </staff>
                      <staff xml:id="n3xh37h" n="3">
                         <layer xml:id="o19itutb" n="1">
-                           <mSpace xml:id="q1riv0cl" />
+                           <mRest xml:id="q1riv0cl" />
                         </layer>
                      </staff>
                      <staff xml:id="v69qx98" n="4">
                         <layer xml:id="w1kil6g2" n="1">
-                           <mSpace xml:id="y1h5pxgm" />
+                           <mRest xml:id="y1h5pxgm" />
                         </layer>
                      </staff>
                      <staff xml:id="q1pe9mz" n="5">
                         <layer xml:id="s10cnwon" n="1">
-                           <note xml:id="t1uzv9ux" dur.ppq="8" dur="4" oct="6" pname="c" stem.dir="down">
-                              <artic xml:id="v1vbm0fi" artic="ten" />
-                           </note>
+                           <beam xml:id="b8ndvph1">
+                              <note xml:id="t1uzv9ux" grace="acc" dur="16" dur.ppq="8" oct="5" pname="e" stem.dir="up">
+                              </note>
+                              <note xml:id="nw9vk1k2" grace="acc" dur="16" oct="5" pname="g" stem.dir="up"/>
+                           </beam>
                            <note xml:id="w1uuxpqs" dur.ppq="8" dur="4" oct="5" pname="f" stem.dir="down" />
                            <beam xml:id="xb4o4f5">
                               <note xml:id="y1pqy1z2" dur.ppq="4" dur="8" oct="5" pname="e" stem.dir="down">
-                                 <artic xml:id="ztfy29l" artic="stacc" />
                               </note>
                               <note xml:id="avpicpg" dur.ppq="4" dur="8" oct="5" pname="b" stem.dir="down" accid.ges="f" />
                               <note xml:id="c1f5wel3" dur.ppq="4" dur="8" oct="5" pname="a" stem.dir="down" />
@@ -583,26 +584,28 @@
                      </staff>
                      <staff xml:id="r19w6wkl" n="6">
                         <layer xml:id="e5bed20" n="5">
-                           <chord xml:id="h1v7u568" dots="1" dur.ppq="24" dur="2" stem.dir="down">
-                              <note xml:id="fm7akrq" oct="3" pname="c">
-                                 <accid xml:id="gzlq5ml" accid="s" />
-                              </note>
-                              <note xml:id="i1o7eane" oct="3" pname="a" />
-                           </chord>
-                           <space xml:id="j17t8ye1" dur.ppq="8" dur="4" />
+                           <bTrem unitdur="8">
+                           	<chord xml:id="h1v7u568" dots="1" dur.ppq="24" dur="2" stem.dir="down">
+                              	<note xml:id="fm7akrq" oct="3" pname="c">
+                                 	<accid xml:id="gzlq5ml" accid="s" />
+                              	</note>
+                              	<note xml:id="i1o7eane" oct="3" pname="a" />
+                           	</chord>
+                           </bTrem>
                         </layer>
                      </staff>
                      <staff xml:id="y53xtrv" n="7">
                         <layer xml:id="a13w03hz" n="1">
-                           <mSpace xml:id="c1l785wb" />
+                           <mRest xml:id="c1l785wb" />
                         </layer>
                      </staff>
                      <staff xml:id="z7vrvcr" n="8">
                         <layer xml:id="d38m67c" n="5">
-                           <mSpace xml:id="f9ifkl6" />
+                           <mRest xml:id="f9ifkl6" />
                         </layer>
                      </staff>
-                     <slur xml:id="uzg6eog" startid="#t1uzv9ux" endid="#w1uuxpqs" />
+                     <slur xml:id="srme3af1" endid="#y1pqy1z2" staff="5" startid="#w1uuxpqs"/>
+                     <slur xml:id="sew0r15" endid="#w1uuxpqs" staff="5" startid="#t1uzv9ux"/>
                   </measure>
                   <measure xml:id="bcemiw1" right="dbl" n="9" facs="#zone_f002d97f1c474b5188">
                      <staff xml:id="khannx5" n="1">
