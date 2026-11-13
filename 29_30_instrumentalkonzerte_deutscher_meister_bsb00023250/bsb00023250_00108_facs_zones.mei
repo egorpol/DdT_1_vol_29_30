@@ -18,7 +18,7 @@
                <name xml:id="n1onqor8">Verovio</name>
                <p xml:id="pvgnyrg">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="amb2o3f" startdate="2026-11-10T17:34:02" version="1.4.2" enddate="2026-11-13T09:44:11">
+            <application xml:id="amb2o3f" startdate="2026-11-10T17:34:02" version="1.4.2" enddate="2026-11-13T09:49:08">
                <name xml:id="nl9fglj2">mei-friend</name>
                <p xml:id="pt3o3bh">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -1409,12 +1409,16 @@
                      </staff>
                      <staff xml:id="zqazzur" n="3">
                         <layer xml:id="jn5vruy" n="5">
-                           <note xml:id="liwwbx" dots="1" dur.ppq="24" dur="2" oct="4" pname="a" stem.dir="down" />
+                           <bTrem unitdur="8">
+                           	<note xml:id="liwwbx" dots="1" dur.ppq="24" dur="2" oct="4" pname="a" stem.dir="down" />
+                           </bTrem>
                         </layer>
                      </staff>
                      <staff xml:id="j1xmuwsz" n="4">
                         <layer xml:id="k1dyqf18" n="1">
-                           <note xml:id="liwwbwex" dots="1" dur.ppq="24" dur="2" oct="4" pname="a" stem.dir="down" />
+                           <bTrem unitdur="8">
+                              <note xml:id="liwwbwex" dots="1" dur="2" dur.ppq="24" oct="3" pname="a" stem.dir="down"/>
+                           </bTrem>
                         </layer>
                      </staff>
                      <staff xml:id="u8q0ccy" n="5">
@@ -1427,26 +1431,40 @@
                      </staff>
                      <staff xml:id="jg37s83" n="6">
                         <layer xml:id="k5u7rvc" n="1">
-                           <note xml:id="rztjztz4" dots="1" dur.ppq="24" dur="2" oct="3" pname="a" stem.dir="down" />
+                           <bTrem unitdur="8">
+                              <note xml:id="rztjztz4" dots="1" dur="2" dur.ppq="24" oct="5" pname="f" stem.dir="down"/>
+                           </bTrem>
                         </layer>
                      </staff>
                      <staff xml:id="y1fb18su" n="7">
                         <layer xml:id="aygqcoo" n="1">
 									<chord xml:id="t1sn24imna" dur.ppq="8" dur="4" stem.dir="up">
                               <note xml:id="szi44j1nch" oct="4" pname="d" />
-                              <note xml:id="uri43qzo6" oct="4" pname="a" />
-                              <note xml:id="vt44inb9c" oct="4" pname="b" />
-                           </chord>                        </layer>
+                              <note xml:id="uri43qzo6" oct="4" pname="f"/>
+                              <note xml:id="vt44inb9c" oct="4" pname="a"/>
+                           </chord>
+                           <chord xml:id="t1sn24eimna" dur.ppq="8" dur="4" stem.dir="up">
+                              <note xml:id="szi4e4j1nch" oct="4" pname="d" />
+                              <note xml:id="uri4e3qzo6" oct="4" pname="f"/>
+                              <note xml:id="vt44einb9c" oct="4" pname="a"/>
+                           </chord>
+                           <chord xml:id="t1snj24imna" dur.ppq="8" dur="4" stem.dir="up">
+                              <note xml:id="szij44j1nch" oct="4" pname="f"/>
+                              <note xml:id="uri4j3qzo6" oct="4" pname="a" />
+                              <note xml:id="vt44jinb9c" oct="5" pname="d"/>
+                           </chord>
+                        </layer>
                      </staff>
                      <staff xml:id="z10eo2c7" n="8">
                         <layer xml:id="dfpm9ka" n="5">
-                           <note xml:id="ba9zr4v" dots="1" dur.ppq="24" dur="2" oct="3" pname="a" stem.dir="down" />
-                        </layer>
+                         	<bTrem unitdur="8">
+                           	<note xml:id="ba9zr4v" dots="1" dur.ppq="24" dur="2" oct="3" pname="a" stem.dir="down" />
+                         	</bTrem>
+                         </layer>
                      </staff>
                      <trill xml:id="e2a6aai" staff="2" startid="#d19qzqhg" />
-                     <trill xml:id="nzy6pj3" staff="3" startid="#m1bkmdyx" />
+                     <trill xml:id="t2pt3lj2" staff="1" startid="#d19qzqhg"/>
                   </measure>
-                  
                   <measure xml:id="t1xzq3ke" n="16" facs="#zone_aa1160a4f6764a209f">
                      <staff xml:id="c1xcmo05" n="1">
                         <layer xml:id="esc15ut" n="1">
