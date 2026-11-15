@@ -18,7 +18,7 @@
                <name xml:id="n9xy1ul">Verovio</name>
                <p xml:id="p1viym3w">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="al4xax91" startdate="2026-11-13T10:32:50" version="1.4.2" enddate="2026-11-15T17:18:17">
+            <application xml:id="al4xax91" startdate="2026-11-13T10:32:50" version="1.4.2" enddate="2026-11-15T17:45:32">
                <name xml:id="n2l6rpb">mei-friend</name>
                <p xml:id="p9gumxm1">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -1242,7 +1242,9 @@
                      </staff>
                      <staff xml:id="d188nmce" n="3">
                         <layer xml:id="m1g15xev" n="5">
-                           <note xml:id="q2avhqs" dur.ppq="16" dur="2" oct="4" pname="f" stem.dir="down" />
+                           <bTrem unitdur="8"> 
+                           	<note xml:id="q2avhqs" dur.ppq="16" dur="2" oct="4" pname="f" stem.dir="down" />
+                           </bTrem>
                            <beam xml:id="rrtax5l">
                               <note xml:id="s1oyxj8d" dur.ppq="4" dur="8" oct="4" pname="a" stem.dir="down" />
                               <note xml:id="t11oue7b" dur.ppq="4" dur="8" oct="4" pname="a" stem.dir="down" />
@@ -1251,7 +1253,9 @@
                      </staff>
                      <staff xml:id="m1akc2iu" n="4">
                         <layer xml:id="p13idxce" n="1">
-                           <note xml:id="epccg8u" dur.ppq="16" dur="2" oct="3" pname="d" stem.dir="down" />
+                           <bTrem unitdur="8"> 
+                           	<note xml:id="epccg8u" dur.ppq="16" dur="2" oct="3" pname="d" stem.dir="down" />
+                           </bTrem>
                            <beam xml:id="f1cnnznc">
                               <note xml:id="gyxyd02" dur.ppq="4" dur="8" oct="3" pname="f" stem.dir="down" />
                               <note xml:id="h1alj8j5" dur.ppq="4" dur="8" oct="3" pname="f" stem.dir="down" />
@@ -1267,25 +1271,54 @@
                      </staff>
                      <staff xml:id="jk9wtwx" n="6">
                         <layer xml:id="k14d3j3xs" n="1">
-                              <note xml:id="ecpbr0ox" dur.ppq="4" dur="8" oct="3" pname="f" stem.dir="down" />
-                              <note xml:id="f1l3cx4u8" dur.ppq="4" dur="8" oct="3" pname="f" stem.dir="down" />
+                           <bTrem unitdur="8"> 
+                           	<note xml:id="ecpbr0ox" dur="2" dur.ppq="4" oct="3" pname="d" stem.dir="down"/>
+                           </bTrem>
+                           <beam xml:id="btmno41">
+                              <note xml:id="n4r252k2" dur="8" oct="3" pname="f" stem.dir="down"/>
+                              <note xml:id="f1l3cx4u8" dur.ppq="4" dur="8" oct="3" pname="f" stem.dir="down"/>
+                           </beam>
                         </layer>
                      </staff>
                      <staff xml:id="a1dslaj8" n="7">
                         <layer xml:id="c1xgm3vn" n="1">
-                           <note xml:id="ecpb0ox" dur.ppq="4" dur="8" oct="3" pname="f" stem.dir="down" />
-                           <note xml:id="f1lcx4u8" dur.ppq="4" dur="8" oct="3" pname="f" stem.dir="down" />
+                           <bTrem unitdur="8"> 
+                              <chord xml:id="ctdsfba" dur="2" stem.dir="up">
+                                 <note xml:id="ecpb0ox" dur.ppq="4" oct="5" pname="d"/>
+                                 <note xml:id="ne5djnp1" oct="4" pname="f"/>
+                                 <note xml:id="nqpg5a1" oct="4" pname="a"/>
+                              </chord>
+                           </bTrem>
+                           <chord xml:id="cf4er7x1" dur="8" stem.dir="up">
+                              <note xml:id="nnrfl7j2" oct="4" pname="d"/>
+                              <note xml:id="nhi3g5f1" oct="5" pname="d"/>
+                              <note xml:id="nuj91ew1" oct="4" pname="a"/>
+                           </chord>
+                           <chord xml:id="cvy1l4v2" dur="8" stem.dir="up">
+                              <note xml:id="f1lcx4u8" dur.ppq="4" oct="4" pname="a"/>
+                              <note xml:id="n63jtjo2" oct="5" pname="c"/>
+                              <note xml:id="nrdss3u1" oct="4" pname="d"/>
+                           </chord>
                         </layer>
                      </staff>
                      <staff xml:id="bst1b8d" n="8">
                         <layer xml:id="w15yqrvi" n="6">
-                           <note xml:id="xpzn0m2" dur.ppq="4" dur="8" oct="2" pname="c" stem.dir="down" />
-                           <note xml:id="zo6oqpu" dur.ppq="4" dur="8" oct="2" pname="c" stem.dir="down" />
+                           <bTrem unitdur="8"> 
+                           	<note xml:id="ecpber0ox" dur="2" dur.ppq="4" oct="3" pname="d" stem.dir="down"/>
+                           </bTrem>
+                           <beam xml:id="btmneo41">
+                              <note xml:id="n4re252k2" dur="8" oct="3" pname="f" stem.dir="down"/>
+                              <note xml:id="f1l3ecx4u8" dur.ppq="4" dur="8" oct="3" pname="f" stem.dir="down"/>
+                           </beam>
                         </layer>
                      </staff>
                      <dynam xml:id="n1r1ah06" place="below" staff="4" tstamp="1" val="90" vgrp="793">f</dynam>
                      <dynam xml:id="b1idkmy2" place="below" staff="5" tstamp="1" val="90" vgrp="793">f</dynam>
                      <dynam xml:id="dud39ij2" staff="1" startid="#f1donlt6">(f)</dynam>
+                     <dynam xml:id="d4omq8i1" staff="2" startid="#n11nzobm">(f)</dynam>
+                     <dynam xml:id="d3dptwh1" staff="3" startid="#q2avhqs">f</dynam>
+                     <dynam xml:id="dhi2teb1" staff="4" startid="#epccg8u">f</dynam>
+                     <dynam xml:id="dlqn2xo1" staff="7" startid="#ne5djnp1">f</dynam>
                   </measure>
                   <measure xml:id="s188kbus" n="16" facs="#zone_1e21110abc9a48e6ac">
                      <harm xml:id="tjztgikzu6" staff="4" tstamp="1">
