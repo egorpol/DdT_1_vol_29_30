@@ -18,7 +18,7 @@
                <name xml:id="n1euox09">Verovio</name>
                <p xml:id="p9x9ob8">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="a9sw9wn1" startdate="2026-11-19T17:16:40" version="1.4.2" enddate="2026-11-20T15:29:44">
+            <application xml:id="a9sw9wn1" startdate="2026-11-19T17:16:40" version="1.4.2" enddate="2026-11-20T15:35:01">
                <name xml:id="ndqgclq2">mei-friend</name>
                <p xml:id="pejqbmr2">First edit by mei-friend 1.4.2.</p>
             </application>
@@ -889,22 +889,22 @@
                   <measure xml:id="ba1mprn" n="10" facs="#zone_d45de848637042c993">
                      <staff xml:id="k1ehvk8f" n="1">
                         <layer xml:id="mfrthla" n="1">
-                           <mSpace xml:id="o18iav0x" />
+                           <mRest xml:id="o18iav0x" />
                         </layer>
                      </staff>
                      <staff xml:id="lxdscdd" n="2">
                         <layer xml:id="p1lqu6az" n="5">
-                           <mSpace xml:id="r1nh0v7l" />
+                           <mRest xml:id="r1nh0v7l" />
                         </layer>
                      </staff>
                      <staff xml:id="e1vkfhgt" n="3">
                         <layer xml:id="fxrqlyl" n="1">
-                           <mSpace xml:id="h10manok" />
+                           <mRest xml:id="h10manok" />
                         </layer>
                      </staff>
                      <staff xml:id="l15jjzvj" n="4">
                         <layer xml:id="m64ngxz" n="1">
-                           <mSpace xml:id="o1543cqi" />
+                           <mRest xml:id="o1543cqi" />
                         </layer>
                      </staff>
                      <staff xml:id="eumfmjy" n="5">
@@ -920,12 +920,11 @@
                               <note xml:id="p12kuhw" dur.ppq="12" dur="16" oct="5" pname="f" stem.dir="down" />
                            </beam>
                            <beam xml:id="q1vmvuo9">
-                              <note xml:id="r13thnr9" dur.ppq="24" dur="8" oct="5" pname="e" stem.dir="down" />
+                              <note xml:id="r13thnr9" dur="8" dur.ppq="24" oct="5" pname="e" stem.dir="down"/>
                               <note xml:id="sd08m57" dur.ppq="12" dur="16" oct="5" pname="d" stem.dir="down" />
                               <note xml:id="t1sllemb" dur.ppq="12" dur="16" oct="5" pname="e" stem.dir="down" />
                               <note xml:id="u140hp2w" dur.ppq="12" dur="16" oct="5" pname="c" stem.dir="down" />
                            </beam>
-                           <space xml:id="v135clls" dots="1" dur.ppq="60" dur="4" />
                         </layer>
                      </staff>
                      <staff xml:id="fdi4ivs" n="6">
@@ -952,19 +951,21 @@
                                  <note xml:id="m10dcj7o" oct="3" pname="a" />
                               </chord>
                            </beam>
-                           <space xml:id="n5ckn82" dur.ppq="96" dur="2" />
                         </layer>
                      </staff>
                      <staff xml:id="x41qbh" n="7">
                         <layer xml:id="zniuote" n="1">
-                           <mSpace xml:id="b1cqs4kk" />
+                           <mRest xml:id="b1cqs4kk" />
                         </layer>
                      </staff>
                      <staff xml:id="y7gksjv" n="8">
                         <layer xml:id="c11f79yx" n="5">
-                           <mSpace xml:id="e9x868k" />
+                           <mRest xml:id="e9x868k" />
                         </layer>
                      </staff>
+                     <slur xml:id="sjstk211" endid="#sd08m57" staff="5" startid="#r13thnr9"/>
+                     <mordent xml:id="mm8t8ft1" form="upper" staff="5" startid="#r13thnr9"/>
+                     <turn xml:id="tscxy5" staff="5" startid="#r13thnr9"/>
                   </measure>
                   <measure xml:id="s15tgash" n="11" facs="#zone_5b6c5d6e80014a5296">
                      <staff xml:id="bruyhrr" n="1">
