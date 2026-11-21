@@ -115,24 +115,21 @@
                         <clef xml:id="z1d70jyb" shape="F" line="4" />
                         <keySig xml:id="a1h6u7fr" sig="1f" />
                      </staffDef>
-                     <staffDef xml:id="P8" n="12" lines="5" ppq="2">
-                        <label xml:id="nzvo69v">System 12</label>
-                        <labelAbbr xml:id="p1dn3afg">Prt12</labelAbbr>
-                        <instrDef xml:id="r1rakjs7" midi.channel="11" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="aea63mn" shape="G" line="2" />
-                        <keySig xml:id="bwpn10b" sig="1f" />
-                     </staffDef>
-                     <staffDef xml:id="P9" n="13" lines="5" ppq="2">
-                        <label xml:id="t14etuhb">System 13</label>
-                        <labelAbbr xml:id="vguknis">Prt13</labelAbbr>
-                        <instrDef xml:id="xqdnkps" midi.channel="14" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="gh0pqee" shape="F" line="4" />
-                        <keySig xml:id="hjzfcu" sig="1f" />
-                     </staffDef>
+                     <staffGrp xml:id="jdue4" bar.thru="true">
+                        <grpSym xml:id="jdfi83" symbol="brace"/>
+                        <staffDef xml:id="P8" n="12" lines="5" ppq="2">
+                           <instrDef xml:id="r1rakjs7" midi.channel="11" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="aea63mn" shape="G" line="2" />
+                           <keySig xml:id="bwpn10b" sig="1f" />
+                        </staffDef>
+                        <staffDef xml:id="P9" n="13" lines="5" ppq="2">
+                           <instrDef xml:id="xqdnkps" midi.channel="14" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="gh0pqee" shape="F" line="4" />
+                           <keySig xml:id="hjzfcu" sig="1f" />
+                        </staffDef>
+                     </staffGrp>
                      <staffGrp xml:id="P10" bar.thru="true">
                         <grpSym xml:id="pqsmqk2" symbol="brace" />
-                        <label xml:id="pk2tk8b">System 14</label>
-                        <labelAbbr xml:id="r1pm9328">Prt14</labelAbbr>
                         <instrDef xml:id="t1i0im2f" midi.channel="15" midi.instrnum="0" midi.volume="77%" />
                         <staffDef xml:id="v13g3wgo" n="14" lines="5" ppq="2">
                            <clef xml:id="c20e5xf" shape="G" line="2" />
