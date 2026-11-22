@@ -40,94 +40,72 @@
             <score xml:id="a1im1w">
                <scoreDef xml:id="b15ecoge">
                   <staffGrp xml:id="e1empb7p">
-                     <staffGrp xml:id="P1" bar.thru="true">
-                        <grpSym xml:id="f1jip5k8" symbol="brace" />
-                        <label xml:id="f1ysk30g">System 1</label>
-                        <labelAbbr xml:id="h1srpp86">Prt1</labelAbbr>
-                        <instrDef xml:id="j1d4405" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
-                        <staffDef xml:id="l19u6b7o" n="1" lines="5" ppq="12">
-                           <clef xml:id="ss9p9n" shape="G" line="2" />
-                           <keySig xml:id="t1kv69ov" sig="0" />
-                           <meterSig xml:id="uvgx481" count="4" unit="4" />
+                     <staffGrp xml:id="hdf8de" bar.thru="true">
+                        <grpSym xml:id="jdhfud7" symbol="bracket"/>
+                        <staffGrp xml:id="P1" bar.thru="true">
+                           <grpSym xml:id="f1jip5k8" symbol="brace" />
+                           <instrDef xml:id="j1d4405" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
+                           <staffDef xml:id="l19u6b7o" n="1" lines="5" ppq="12">
+                              <clef xml:id="ss9p9n" shape="G" line="2" />
+                              <keySig xml:id="t1kv69ov" sig="1f" />
+                           </staffDef>
+                           <staffDef xml:id="v3bck3k" n="2" lines="5" ppq="12">
+                              <clef xml:id="c123nhgk" shape="G" line="2" />
+                              <keySig xml:id="d1j3l2jm" sig="1f" />
+                           </staffDef>
+                        </staffGrp>
+                        <staffGrp xml:id="P2" bar.thru="true">
+                           <grpSym xml:id="pi89ivq" symbol="brace" />
+                           <instrDef xml:id="taoodph" midi.channel="3" midi.instrnum="0" midi.volume="77%" />
+                           <staffDef xml:id="v1vp3tvg" n="3" lines="5" ppq="12">
+                              <clef xml:id="c15s17lo" shape="G" line="2" />
+                              <keySig xml:id="d1o3n02" sig="1f" />
+                           </staffDef>
+                           <staffDef xml:id="f1tj1kxk" n="4" lines="5" ppq="12">
+                              <clef xml:id="mc9mwkq" shape="G" line="2" />
+                              <keySig xml:id="ncbt731" sig="1f" />
+                           </staffDef>
+                        </staffGrp>
+                        <staffGrp xml:id="P3" bar.thru="true">
+                           <grpSym xml:id="dsj7loy" symbol="brace" />
+                           <instrDef xml:id="h1ez6k7f" midi.channel="8" midi.instrnum="0" midi.volume="77%" />
+                           <staffDef xml:id="j1f3uvpp" n="5" lines="5" ppq="12">
+                              <clef xml:id="q12ehxjw" shape="G" line="2" />
+                              <keySig xml:id="rgw3vgo" sig="1f" />
+                           </staffDef>
+                           <staffDef xml:id="t18qx5mg" n="6" lines="5" ppq="12">
+                              <clef xml:id="a1levm7q" shape="G" line="2" />
+                              <keySig xml:id="b1uxg1b0" sig="1f" />
+                           </staffDef>
+                        </staffGrp>
+                        <staffDef xml:id="P4" n="7" lines="5" ppq="12">
+                           <instrDef xml:id="v1176ult" midi.channel="14" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="etovvvo" shape="G" line="2" />
+                           <keySig xml:id="f11ooqho" sig="1f" />
                         </staffDef>
-                        <staffDef xml:id="v3bck3k" n="2" lines="5" ppq="12">
-                           <clef xml:id="c123nhgk" shape="G" line="2" />
-                           <keySig xml:id="d1j3l2jm" sig="0" />
-                           <meterSig xml:id="ew08es9" count="4" unit="4" />
+                        <staffGrp xml:id="P5" bar.thru="true">
+                           <grpSym xml:id="w1vgxg8e" symbol="brace" />
+                           <instrDef xml:id="a6f0vli" midi.channel="15" midi.instrnum="0" midi.volume="77%" />
+                           <staffDef xml:id="c6xaltl" n="8" lines="5" ppq="12">
+                              <clef xml:id="j1gz4kb2" shape="G" line="2" />
+                              <keySig xml:id="kael4p3" sig="1f" />
+                           </staffDef>
+                           <staffDef xml:id="mouxxe2" n="9" lines="5" ppq="12">
+                              <clef xml:id="t8to198" shape="G" line="2" />
+                              <keySig xml:id="u11ci44r" sig="1f" />
+                           </staffDef>
+                        </staffGrp>
+                        <staffDef xml:id="P6" n="10" lines="5" ppq="12">
+                           <instrDef xml:id="x14zitrj" midi.channel="11" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="g1vms0mf" shape="C" line="3" />
+                           <keySig xml:id="hwne9dl" sig="1f" />
                         </staffDef>
-                     </staffGrp>
-                     <staffGrp xml:id="P2" bar.thru="true">
-                        <grpSym xml:id="pi89ivq" symbol="brace" />
-                        <label xml:id="ppf9tsc">System 3</label>
-                        <labelAbbr xml:id="r1bawcmh">Prt3</labelAbbr>
-                        <instrDef xml:id="taoodph" midi.channel="3" midi.instrnum="0" midi.volume="77%" />
-                        <staffDef xml:id="v1vp3tvg" n="3" lines="5" ppq="12">
-                           <clef xml:id="c15s17lo" shape="G" line="2" />
-                           <keySig xml:id="d1o3n02" sig="1f" />
-                           <meterSig xml:id="e1pw3fby" count="4" unit="4" />
-                        </staffDef>
-                        <staffDef xml:id="f1tj1kxk" n="4" lines="5" ppq="12">
-                           <clef xml:id="mc9mwkq" shape="G" line="2" />
-                           <keySig xml:id="ncbt731" sig="1f" />
-                           <meterSig xml:id="o948zyj" count="4" unit="4" />
-                        </staffDef>
-                     </staffGrp>
-                     <staffGrp xml:id="P3" bar.thru="true">
-                        <grpSym xml:id="dsj7loy" symbol="brace" />
-                        <label xml:id="d5j8evy">System 5</label>
-                        <labelAbbr xml:id="f1r61l5w">Prt5</labelAbbr>
-                        <instrDef xml:id="h1ez6k7f" midi.channel="8" midi.instrnum="0" midi.volume="77%" />
-                        <staffDef xml:id="j1f3uvpp" n="5" lines="5" ppq="12">
-                           <clef xml:id="q12ehxjw" shape="G" line="2" />
-                           <keySig xml:id="rgw3vgo" sig="1f" />
-                           <meterSig xml:id="s1c80a0d" count="4" unit="4" />
-                        </staffDef>
-                        <staffDef xml:id="t18qx5mg" n="6" lines="5" ppq="12">
-                           <clef xml:id="a1levm7q" shape="G" line="2" />
-                           <keySig xml:id="b1uxg1b0" sig="1f" />
-                           <meterSig xml:id="clytpuf" count="4" unit="4" />
-                        </staffDef>
-                     </staffGrp>
-                     <staffDef xml:id="P4" n="7" lines="5" ppq="12">
-                        <label xml:id="r10vc6sg">System 7</label>
-                        <labelAbbr xml:id="t70lqs2">Prt7</labelAbbr>
-                        <instrDef xml:id="v1176ult" midi.channel="14" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="etovvvo" shape="G" line="2" />
-                        <keySig xml:id="f11ooqho" sig="1f" />
-                        <meterSig xml:id="g19j3s2o" count="4" unit="4" />
-                     </staffDef>
-                     <staffGrp xml:id="P5" bar.thru="true">
-                        <grpSym xml:id="w1vgxg8e" symbol="brace" />
-                        <label xml:id="w1tf13sg">System 8</label>
-                        <labelAbbr xml:id="y1turoq3">Prt8</labelAbbr>
-                        <instrDef xml:id="a6f0vli" midi.channel="15" midi.instrnum="0" midi.volume="77%" />
-                        <staffDef xml:id="c6xaltl" n="8" lines="5" ppq="12">
-                           <clef xml:id="j1gz4kb2" shape="G" line="2" />
-                           <keySig xml:id="kael4p3" sig="1f" />
-                           <meterSig xml:id="l1ez5pz1" count="4" unit="4" />
-                        </staffDef>
-                        <staffDef xml:id="mouxxe2" n="9" lines="5" ppq="12">
-                           <clef xml:id="t8to198" shape="G" line="2" />
-                           <keySig xml:id="u11ci44r" sig="1f" />
-                           <meterSig xml:id="vhmtvk" count="4" unit="4" />
+                        <staffDef xml:id="P7" n="11" lines="5" ppq="12">
+                           <instrDef xml:id="z1l5h9kz" midi.channel="12" midi.instrnum="0" midi.volume="77%" />
+                           <clef xml:id="i5l3hl4" shape="F" line="4" />
+                           <keySig xml:id="jt4qpn9" sig="1f" />
                         </staffDef>
                      </staffGrp>
-                     <staffDef xml:id="P6" n="10" lines="5" ppq="12">
-                        <label xml:id="txyuhpo">System 10</label>
-                        <labelAbbr xml:id="v7p4lr7">Prt10</labelAbbr>
-                        <instrDef xml:id="x14zitrj" midi.channel="11" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="g1vms0mf" shape="C" line="3" />
-                        <keySig xml:id="hwne9dl" sig="0" />
-                        <meterSig xml:id="i7bt18r" count="4" unit="4" />
-                     </staffDef>
-                     <staffDef xml:id="P7" n="11" lines="5" ppq="12">
-                        <label xml:id="v1fmyzl">System 11</label>
-                        <labelAbbr xml:id="xky27p5">Prt11</labelAbbr>
-                        <instrDef xml:id="z1l5h9kz" midi.channel="12" midi.instrnum="0" midi.volume="77%" />
-                        <clef xml:id="i5l3hl4" shape="F" line="4" />
-                        <keySig xml:id="jt4qpn9" sig="1f" />
-                        <meterSig xml:id="k12wyd04" count="4" unit="4" />
-                     </staffDef>
                      <staffGrp xml:id="jdfjhdfe" bar.thru="true">
                         <grpSym xml:id="dfjdhfuere" symbol="brace"/>
                         <staffDef xml:id="P8" n="12" lines="5" ppq="12">
