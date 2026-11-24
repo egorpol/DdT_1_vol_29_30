@@ -520,11 +520,13 @@
                         <layer xml:id="jrvu8bc" n="1">
                            <note xml:id="k1eh1iiw" dur.ppq="4" dur="4" oct="5" pname="g" stem.dir="down" />
                            <note xml:id="l1885vnc" dur.ppq="8" dur="2" oct="5" pname="g" stem.dir="down" />
-                           <beam xml:id="m1qewh04">
-                              <note xml:id="n1szanw0" dur.ppq="2" dur="8" oct="5" pname="b" stem.dir="down" />
-                              <note xml:id="qi1khmw" dur.ppq="2" dur="8" oct="5" pname="a" stem.dir="down"/>
-                              <note xml:id="s1p6dv97" dur.ppq="2" dur="8" oct="5" pname="g" stem.dir="down" />
-                           </beam>
+                           <tuplet num="3" numbase="2" bracket.visible="false">
+                              <beam xml:id="m1qewh04">
+                                 <note xml:id="n1szanw0" dur.ppq="2" dur="8" oct="5" pname="b" stem.dir="down"/>
+                                 <note xml:id="qi1khmw" dur.ppq="2" dur="8" oct="5" pname="a" stem.dir="down"/>
+                                 <note xml:id="s1p6dv97" dur.ppq="2" dur="8" oct="5" pname="g" stem.dir="down"/>
+                              </beam>
+                           </tuplet>
                         </layer>
                      </staff>
                      <staff xml:id="w3lyw1m" n="8">
